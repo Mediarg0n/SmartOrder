@@ -1,4 +1,4 @@
-Beispielanwendung "My Songbook"
+SmartOrder
 ===============================
 
 Kurzbeschreibung
