@@ -5,13 +5,13 @@
       "name" : "Vorspeisensalat",
       "Beschreibung" : "kleiner gemischter Salat",
       "preis" : 3.20,
-      "image" : "vorspeisensalat"
+      "image" : "vorspeisensalat1"
     },
     {
       "name" : "Knoblauchbrot",
       "Beschreibung" : "frisches Knoblauchbrot mit Dip",
       "preis" : 3.20,
-      "image" : "vorspeisensalat"
+      "image" : "Knoblauchbrot"
     }
   ]
 
