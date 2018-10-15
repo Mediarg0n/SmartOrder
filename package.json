@@ -1,0 +1,19 @@
+{
+  "name": "smartorder",
+  "version": "1.0.0",
+  "description": "Beispielanwendung \"My Songbook\"\r ===============================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mediarg0n/SmartOrder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mediarg0n/SmartOrder/issues"
+  },
+  "homepage": "https://github.com/Mediarg0n/SmartOrder#readme"
+}
