@@ -22,3 +22,22 @@ footer {
 
 
 }
+
+#list-example{
+
+display: inline-block;
+width: 9%;
+margin-top: 2em;
+}
+
+.scrollspy-example{/* Anpassen*/
+
+      display: inline-block;
+      position: relative;
+
+      height: 450px;
+      width:90%;
+      overflow: auto;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
