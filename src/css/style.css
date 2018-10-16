@@ -27,7 +27,7 @@ footer {
 
 display: inline-block;
 width: 9%;
-margin-top: 2em;
+
 }
 
 .scrollspy{
@@ -46,6 +46,7 @@ margin-top: 2em;
     .Artikel{
 background-color: lightgrey;
 margin-bottom: 1em;
+
 
     }
 
