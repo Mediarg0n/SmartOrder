@@ -47,7 +47,7 @@ window.addEventListener("load", ()=> {
 
           let divBeschreibung = document.createElement("div");
           divBeschreibung.innerHTML =
-            "<b>"+listItem.name+"</b> <br>"+listItem.beschreibung +"<button onclick=\"alert('Sie haben "+listItem.name+" bestellt.')\">Bestellen</button>";
+            "<b>"+listItem.name+"</b> <br>"+listItem.beschreibung +"<button type=\"button\" onclick=\"alert('Sie haben "+listItem.name+" bestellt.')\">Bestellen</button>";
           divElement.appendChild(divBeschreibung);
 
           let spanPreis = document.createElement("span");
