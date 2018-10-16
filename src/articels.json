@@ -1,18 +1,37 @@
-{
-  "Vorspeisen" :
+
   [
     {
-      "name" : "Vorspeisensalat",
-      "Beschreibung" : "kleiner gemischter Salat",
-      "preis" : 3.20,
-      "image" : "vorspeisensalat1"
+      "groupname" : "Vorspeisen",
+      "list" : [
+        {
+          "name" : "Vorspeisensalat",
+          "beschreibung" : "kleiner gemischter Salat",
+          "preis" : 3.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Knoblauchbrot",
+          "beschreibung" : "frisches Knoblauchbrot mit Dip",
+          "preis" : 3.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
     },
     {
-      "name" : "Knoblauchbrot",
-      "Beschreibung" : "frisches Knoblauchbrot mit Dip",
-      "preis" : 3.20,
-      "image" : "Knoblauchbrot"
+      "groupname" : "Pizza",
+      "list" : [
+        {
+          "name" : "Salami",
+          "beschreibung" : "Tomaten, Salami, Käse",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Diavolo",
+          "beschreibung" : "lecker scharf",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
     }
   ]
-
-}

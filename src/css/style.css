@@ -23,14 +23,14 @@ footer {
 
 }
 
-#list-example{
+#list{
 
 display: inline-block;
 width: 9%;
 margin-top: 2em;
 }
 
-.scrollspy-example{/* Anpassen*/
+.scrollspy{/* Anpassen*/
 
       display: inline-block;
       position: relative;
@@ -40,4 +40,9 @@ margin-top: 2em;
       overflow: auto;
       overflow-x: auto;
       overflow-y: auto;
+
     }
+
+img{
+  width: 80px;
+}
