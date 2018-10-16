@@ -43,6 +43,7 @@ window.addEventListener("load", ()=> {
         let groupList = group.list;
         groupList.forEach(listItem => {
           let divElement = document.createElement("div");
+          divElement.classList.add("Artikel");
 
           let divBeschreibung = document.createElement("div");
           divBeschreibung.innerHTML =
