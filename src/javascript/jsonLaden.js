@@ -27,6 +27,7 @@ window.addEventListener("load", ()=> {
       let scrollspy = document.getElementById("main");
       data.forEach(group => {
         let divGroup = document.createElement("div");
+        
 
         let groupRef = document.createElement("a");
         groupRef.classList.add("list-group-item");

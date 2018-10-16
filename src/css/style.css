@@ -24,16 +24,17 @@ footer {
 }
 
 #list{
-
 display: inline-block;
-width: 9%;
+width: 140px;
 margin-top: 2em;
+position: fixed;
 }
 
 .scrollspy{
 
       display: inline-block;
       position: relative;
+      margin-left: 150px;
 
       height: 450px;
       width:90%;
