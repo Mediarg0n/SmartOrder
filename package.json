@@ -1,7 +1,7 @@
 {
   "name": "smartorder",
   "version": "1.0.0",
-  "description": "Beispielanwendung \"My Songbook\"\r ===============================",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "node scripts/clean.js",
