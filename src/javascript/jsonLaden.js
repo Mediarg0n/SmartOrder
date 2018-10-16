@@ -1,4 +1,7 @@
-console.log("halo");
+
+
+
+
 //Björn
 let loadJSON = (file,callback) =>{
   let xobj = new XMLHttpRequest();
@@ -13,8 +16,8 @@ let loadJSON = (file,callback) =>{
   xobj.send(null);
 }
 
-//Björn
-window.onload = function() {
+//Björn (Christian)
+window.addEventListener("load", ()=> {
 
   loadJSON('articels.json', (text) => {
       let data = JSON.parse(text);
@@ -58,26 +61,7 @@ window.onload = function() {
         })
         scrollspy.appendChild(divGroup);
       })
-/**
-      //Vorspeisen
-      let vorspeisenElement = document.getElementById("Vorspeisen");
-      console.log(vorspeisenElement);
-      let vorspeisen = data.Vorspeisen;
-      console.log(vorspeisen);
-      vorspeisen.forEach(element => {
-        console.log(element)
-        let divElement = document.createElement("div");
-        vorspeisenElement.appendChild(divElement);
-
-        let imgElement = document.createElement("img");
-        imgElement.src = "img/"+element.image;
-        divElement.appendChild(imgElement);
-
-        let txtNode = document.createTextNode(element.Beschreibung);
-        divElement.appendChild(txtNode);
-
-      });
-
-**/
-  });
-};
+    }
+    )
+    
+});
