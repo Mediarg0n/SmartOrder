@@ -33,5 +33,56 @@
           "image" : "Knoblauchbrot.jpg"
         }
       ]
+    },
+    {
+      "groupname" : "Pasta",
+      "list" : [
+        {
+          "name" : "Nudeln",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Bolognese",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
+    },
+    {
+      "groupname" : "Döner",
+      "list" : [
+        {
+          "name" : "großer Döner",
+          "beschreibung" : "mit ohne Scharf",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "kleiner Döner",
+          "beschreibung" : "mit ohne ohne Scharf",
+          "preis" : 1.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
+    },
+    {
+      "groupname" : "Nachtisch",
+      "list" : [
+        {
+          "name" : "KremPrüle",
+          "beschreibung" : "lecker",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Tafel-Schokolade",
+          "beschreibung" : "Vollmilch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
     }
   ]
