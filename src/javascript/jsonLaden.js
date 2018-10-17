@@ -21,13 +21,34 @@ window.addEventListener("load", ()=> {
 
   loadJSON('articels.json', (text) => {
       let data = JSON.parse(text);
+      
+      //Beispiel für Einfügen
+      data.splice(1,0,  {
+          "groupname" : "Essen",
+          "list" : [
+            {
+              "name" : "Vorspeisensalat",
+              "beschreibung" : "kleiner gemischter Salat",
+              "preis" : 3.20,
+              "image" : "vorspeisensalat1.jpg"
+            },
+            {
+              "name" : "Knoblauchbrot",
+              "beschreibung" : "frisches Knoblauchbrot mit Dip",
+              "preis" : 3.20,
+              "image" : "Knoblauchbrot.jpg"
+            }
+  ]
+        });
+
+
       console.log(data);
 
       let list = document.getElementById("list");
       let scrollspy = document.getElementById("main");
       data.forEach(group => {
         let divGroup = document.createElement("div");
-        
+
 
         let groupRef = document.createElement("a");
         groupRef.classList.add("list-group-item");

@@ -1,6 +1,6 @@
 header{
 
-background-color: black;
+background-color: lightgrey;
 color:white;
 padding-top: 3em;
 padding-bottom: 3em;
@@ -51,6 +51,17 @@ margin-bottom: 1em;
 
     }
 
-img{
+div img{
   width: 80px;
+}
+header h1{
+display: inline-block;
+
+}
+
+header img{
+width: 5em;
+height: 5em;
+
+
 }
