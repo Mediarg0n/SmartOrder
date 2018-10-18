@@ -21,7 +21,7 @@ window.addEventListener("load", ()=> {
 
   loadJSON('articels.json', (text) => {
       let data = JSON.parse(text);
-      
+
       //Beispiel für Einfügen
       data.splice(1,0,  {
           "groupname" : "Essen",
