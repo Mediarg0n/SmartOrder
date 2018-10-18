@@ -16,14 +16,16 @@ let loadJSON = (file,callback) =>{
   xobj.send(null);
 }
 
+JSONDATA = [];
 //Björn (Christian)
 window.addEventListener("load", ()=> {
 
   loadJSON('articels.json', (text) => {
-      let data = JSON.parse(text);
-      
+      JSONDATA = JSON.parse(text);
+      console.log(JSONDATA);
+      console.log("loadJSON");
       //Beispiel für Einfügen
-      data.splice(1,0,  {
+      JSONDATA.splice(1,0,  {
           "groupname" : "Essen",
           "list" : [
             {
@@ -38,17 +40,16 @@ window.addEventListener("load", ()=> {
               "preis" : 3.20,
               "image" : "Knoblauchbrot.jpg"
             }
-  ]
+          ]
         });
 
 
-      console.log(data);
 
       let list = document.getElementById("list");
       let scrollspy = document.getElementById("main");
-      data.forEach(group => {
+      JSONDATA.forEach(group => {
         let divGroup = document.createElement("div");
-
+        divGroup.classList.add("divGroup");
 
         let groupRef = document.createElement("a");
         groupRef.classList.add("list-group-item");
@@ -58,18 +59,22 @@ window.addEventListener("load", ()=> {
         list.appendChild(groupRef);
 
         let groupTitle = document.createElement("h4");
-        groupTitle.id = group.groupname;
+        groupTitle.id = group.groupname.replace(/ /g, '_');
         groupTitle.textContent = group.groupname;
         divGroup.appendChild(groupTitle);
 
         let groupList = group.list;
         groupList.forEach(listItem => {
           let divElement = document.createElement("div");
+          divElement.id = listItem.name;
           divElement.classList.add("Artikel");
 
+          let hArtikelName = document.createElement("h5");
+          hArtikelName.textContent = listItem.name;
+          divElement.appendChild(hArtikelName);
           let divBeschreibung = document.createElement("div");
-          divBeschreibung.innerHTML =
-            "<b>"+listItem.name+"</b> <br>"+listItem.beschreibung +"<button type=\"button\" onclick=\"alert('Sie haben "+listItem.name+" bestellt.')\">Bestellen</button>";
+          divBeschreibung.innerHTML = listItem.beschreibung +
+          "<button type=\"button\" onclick=\"alert('Sie haben "+listItem.name+" bestellt.')\">Bestellen</button>";
           divElement.appendChild(divBeschreibung);
 
           let spanPreis = document.createElement("span");
@@ -83,8 +88,10 @@ window.addEventListener("load", ()=> {
           divGroup.appendChild(divElement);
         })
         scrollspy.appendChild(divGroup);
+
       })
     }
-    )
+  );
+  console.log("JSON geladen");
 
 });
