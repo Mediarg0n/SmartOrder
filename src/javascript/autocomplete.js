@@ -1,8 +1,9 @@
 ﻿/*jslint  browser: true, white: true, plusplus: true */
 /*global $, countries */
 
-window.addEventListener("load", ()=> {
-    'use strict';
+//window.addEventListener("load", ()=> {
+autocomplete = (JSONDATA) =>{
+  //  'use strict';
 
     let groups = [/*{name="Vorspeisen", items=[] ,refs=[] }*/];
 
@@ -35,4 +36,4 @@ window.addEventListener("load", ()=> {
     });
 
 
-});
+};

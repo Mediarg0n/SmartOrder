@@ -16,12 +16,12 @@ let loadJSON = (file,callback) =>{
   xobj.send(null);
 }
 
-JSONDATA = [];
+//JSONDATA = [];
 //Björn (Christian)
 window.addEventListener("load", ()=> {
 
   loadJSON('articels.json', (text) => {
-      JSONDATA = JSON.parse(text);
+      let JSONDATA = JSON.parse(text);
       console.log(JSONDATA);
       console.log("loadJSON");
       //Beispiel für Einfügen
@@ -89,9 +89,9 @@ window.addEventListener("load", ()=> {
         })
         scrollspy.appendChild(divGroup);
 
-      })
+      });
+      console.log("JSON geladen");
+      autocomplete(JSONDATA);
     }
   );
-  console.log("JSON geladen");
-
 });
