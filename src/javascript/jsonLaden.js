@@ -24,7 +24,6 @@ window.addEventListener("load", ()=> {
       let JSONDATA = JSON.parse(text);
       console.log(JSONDATA);
       console.log("loadJSON");
->>>>>>> 9ea37f91e193ffc6cc3ceab4f78531ae95223a2d
       //Beispiel für Einfügen
       JSONDATA.splice(1,0,  {
           "groupname" : "Essen",
@@ -67,7 +66,7 @@ window.addEventListener("load", ()=> {
         let groupList = group.list;
         groupList.forEach(listItem => {
           let divElement = document.createElement("div");
-          divElement.id = listItem.name;
+          divElement.id = listItem.name.replace(/ /g, '_');
           divElement.classList.add("Artikel");
 
           let hArtikelName = document.createElement("h5");
