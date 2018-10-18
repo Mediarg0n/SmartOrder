@@ -25,14 +25,9 @@ footer {
 
 #list{
 display: inline-block;
-<<<<<<< HEAD
 width: 140px;
 margin-top: 2em;
 position: fixed;
-=======
-width: 9%;
-
->>>>>>> f509622b4f1beaf72f167011555fe542f17fe7a3
 }
 
 .scrollspy{
