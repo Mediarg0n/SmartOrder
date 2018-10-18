@@ -24,6 +24,7 @@ window.addEventListener("load", ()=> {
       let JSONDATA = JSON.parse(text);
       console.log(JSONDATA);
       console.log("loadJSON");
+>>>>>>> 9ea37f91e193ffc6cc3ceab4f78531ae95223a2d
       //Beispiel für Einfügen
       JSONDATA.splice(1,0,  {
           "groupname" : "Essen",
