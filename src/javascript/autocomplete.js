@@ -5,10 +5,9 @@
 autocomplete = (JSONDATA) =>{
   //  'use strict';
 
-    let groups = [/*{name="Vorspeisen", items=[] ,refs=[] }*/];
+    let groups = [];
     let g;
     JSONDATA.forEach(group => {
-      let groupname = group.groupname;
       let item = [];
       group.list.forEach(listItem => {
         item.push(listItem.name);
@@ -40,11 +39,12 @@ autocomplete = (JSONDATA) =>{
         lookup: g,
         minChars: 1,
         onSelect: (suggestion)=> {
-          console.log(suggestion.data)
+          document.getElementById(suggestion.value.replace(/ /g, '_')).scrollIntoView(true);
+
           //  $('#selection').html('You selected: ' + suggestion.value + ', ' + suggestion.data.category);
         },
         showNoSuggestionNotice: true,
-        noSuggestionNotice: 'Sorry, no matching results',
+        noSuggestionNotice: 'SO ein SCHEIß haben WIR nichT',
         groupBy: 'category'
     });
 
