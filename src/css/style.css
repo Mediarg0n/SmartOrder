@@ -26,12 +26,6 @@ footer {
 
 
 
-#list{
-display: inline-block;
-width: 140px;
-margin-top: 2em;
-position: fixed;
-}
 
 .scrollspy{
 
@@ -71,10 +65,16 @@ height: 5em;
 
 }
 
-@media (max-width: 800px){
 
-#list{
-display: none;
-}
+
+@media (min-width: 800px){
+
+  #list{
+  display: inline-block;
+  width: 140px;
+  margin-top: 2em;
+  position: fixed;
+  }
+
 
 }
