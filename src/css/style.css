@@ -34,7 +34,7 @@ footer {
 
       display: block;
       position: relative;
-      /*margin-left: 150px;*/
+
 
       height: autox;
       width:100%;
@@ -77,28 +77,23 @@ position: fixed;
 }
 
 @media (min-width:800px){
+  #nav_small{
+    display: none ;
+  }
 
-
-#nav_small{
-
-display: none ;
-
-}
-
-
+  .scrollspy{
+    margin-left: 150px;
+  }
 }
 
 
 @media (max-width: 800px){
-
   #nav_large{
-  display: none;
+    display: none;
   }
 
   #header_large{
 
     display: none;
   }
-
-
 }
