@@ -45,7 +45,42 @@ footer {
 
     }
 
-    .Artikel{
+
+    .divArtikel{
+      height: 120px;
+      overflow: hidden;
+      background-color: lightgrey;
+      margin-bottom: 1em;
+    }
+    .divBild{
+      overflow: hidden;
+    }
+    .divBild>img{
+      height: 120px
+    }
+    .divArtikelDetails{
+      height: 120px;
+    }
+    .spanArtikelTitel{
+      font-weight: bolder;
+    }
+    .divOrder{
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      padding-right: 2em;
+
+    }
+    .buttonBestellen{
+      display: inline-block;
+      float: right;
+    }
+    .spanPreis{
+        display: inline-block;
+    }
+
+
+/*    .Artikel{
 background-color: lightgrey;
 margin-bottom: 1em;
 
@@ -54,7 +89,7 @@ margin-bottom: 1em;
 
 div img{
   width: 80px;
-}
+}*/
 header h1{
 display: inline-block;
 
