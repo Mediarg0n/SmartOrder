@@ -65,15 +65,19 @@ height: 5em;
 
 }
 
+#list{
+display: inline-block;
+width: 140px;
+margin-top: 2em;
+position: fixed;
+}
 
 
-@media (min-width: 800px){
+
+@media (max-width: 800px){
 
   #list{
-  display: inline-block;
-  width: 140px;
-  margin-top: 2em;
-  position: fixed;
+  display: none;
   }
 
 

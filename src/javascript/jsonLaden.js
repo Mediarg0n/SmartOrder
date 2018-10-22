@@ -47,12 +47,12 @@ window.addEventListener("load", ()=> {
 
       let nav = document.getElementById("nav");
 
-      if(screen.width>=800){
+
 
       let list = document.createElement("div");
       list.classList.add("list-group");
       list.id = "list";
-      nav.appendChild(list);}
+      nav.appendChild(list);
 
       let scrollspy = document.getElementById("main");
       JSONDATA.forEach(group => {
@@ -60,7 +60,7 @@ window.addEventListener("load", ()=> {
         divGroup.classList.add("divGroup");
 
 
-if(screen.width>=800){
+
 
         let groupRef = document.createElement("a");
         groupRef.classList.add("list-group-item");
@@ -68,7 +68,7 @@ if(screen.width>=800){
         groupRef.href= "#"+group.groupname;
         groupRef.textContent = group.groupname;
         list.appendChild(groupRef);
-      }
+      
 
         let groupTitle = document.createElement("h4");
         groupTitle.id = group.groupname.replace(/ /g, '_');
