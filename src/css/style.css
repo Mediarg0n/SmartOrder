@@ -96,4 +96,9 @@ position: fixed;
 
     display: none;
   }
+
+  header img{
+  width: 2em;
+  height: 2em;
+  }
 }
