@@ -76,12 +76,28 @@ margin-top: 2em;
 position: fixed;
 }
 
+@media (min-width:800px){
+
+
+#nav_small{
+
+display: none ;
+
+}
+
+
+}
 
 
 @media (max-width: 800px){
 
-  #list{
+  #nav_large{
   display: none;
+  }
+
+  header{
+
+    display: none;
   }
 
 
