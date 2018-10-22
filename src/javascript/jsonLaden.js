@@ -90,6 +90,59 @@ window.addEventListener("load", ()=> {
 
         let groupList = group.list;
         groupList.forEach(listItem => {
+
+          let divArtikel = document.createElement("div");
+          divArtikel.id = listItem.name.replace(/ /g, '_');
+          divArtikel.classList.add("divArtikel");
+          divArtikel.classList.add("row");
+
+            let divBild = document.createElement("div");
+            divBild.classList.add("divBild");
+            divBild.classList.add("col-xs-3");
+
+              let imgArtikel = document.createElement("img");
+              imgArtikel.src = "img/"+listItem.image;
+              divBild.appendChild(imgArtikel);
+            divArtikel.appendChild(divBild);
+
+            let divArtikelDetails = document.createElement("div");
+            divArtikelDetails.classList.add("divArtikelDetails");
+            divArtikelDetails.classList.add("col-xs-9");
+
+              let spanArtikelTitel = document.createElement("span");
+              spanArtikelTitel.classList.add("spanArtikelTitel");
+                spanArtikelTitel.innerHTML = listItem.name;
+              divArtikelDetails.appendChild(spanArtikelTitel);
+
+              let divBeschreibung = document.createElement("div");
+              divBeschreibung.classList.add("divBeschreibung");
+                divBeschreibung.innerHTML = listItem.beschreibung;
+              divArtikelDetails.appendChild(divBeschreibung);
+
+              let divOrder = document.createElement("div");
+              divOrder.classList.add("divOrder");
+
+                let spanPreis = document.createElement("span");
+                spanPreis.classList.add("spanPreis");
+                  spanPreis.innerHTML = listItem.preis;
+                divOrder.appendChild(spanPreis);
+
+                let buttonBestellen = document.createElement("button");
+                buttonBestellen.classList.add("buttonBestellen");
+                buttonBestellen.type = "button";
+                buttonBestellen.onclick = "alert('Sie haben "+listItem.name+" bestellt.')";
+                  buttonBestellen.innerHTML = "Bestellungen";
+                divOrder.appendChild(buttonBestellen);
+
+
+              divArtikelDetails.appendChild(divOrder);
+
+            divArtikel.appendChild(divArtikelDetails);
+          divGroup.appendChild(divArtikel);
+          console.log(divArtikel);
+
+
+          /*alt
           let divElement = document.createElement("div");
           divElement.id = listItem.name.replace(/ /g, '_');
           divElement.classList.add("Artikel");
@@ -111,6 +164,7 @@ window.addEventListener("load", ()=> {
           divElement.appendChild(imgElement);
 
           divGroup.appendChild(divElement);
+          */
         })
         scrollspy.appendChild(divGroup);
 
