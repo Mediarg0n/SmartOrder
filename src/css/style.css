@@ -2,7 +2,7 @@ header{
 
   background-color: lightgrey;
   color:white;
-  position:fixed;
+  position: fixed;
   top:0;
   width: 100%;
   z-index:100;
@@ -130,5 +130,10 @@ position: fixed;
   #header_large{
 
     display: none;
+  }
+
+  header img{
+  width: 2em;
+  height: 2em;
   }
 }
