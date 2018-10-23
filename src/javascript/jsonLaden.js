@@ -60,6 +60,7 @@ window.addEventListener("load", ()=> {
       let scrollspy = document.getElementById("main");
       JSONDATA.forEach(group => {
         let divGroup = document.createElement("div");
+        divGroup.id = group.groupname.replace(/ /g, '_');
         divGroup.classList.add("divGroup");
 
 
@@ -86,7 +87,6 @@ window.addEventListener("load", ()=> {
 
 
         let groupTitle = document.createElement("h4");
-        groupTitle.id = group.groupname.replace(/ /g, '_');
         groupTitle.textContent = group.groupname;
         divGroup.appendChild(groupTitle);
 
