@@ -1,3 +1,15 @@
 body {
     background-color: dimgray;
 }
+#div1{
+	height:150px;
+	width:300px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 10s step-end both;
+}
+
+@keyframes change {
+    from { background-color: green }
+    to   { background-color: red }
+}
