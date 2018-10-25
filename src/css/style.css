@@ -2,21 +2,19 @@ header{
 
   background-color: lightgrey;
   color:white;
-  position: absolute;
-  top:0;
-  right:0;
-  left:0;
+  position: relative;
   padding-bottom: 1em;
-
-
+  margin-bottom: 1em;
 }
 
-#nav_large{
-
+asside{
   display: inline-block;
+  position: fixed;
+
 }
 
 main{
+
 
 
 
@@ -27,7 +25,7 @@ main{
 .scrollspy{
 
       display: inline-block;
-
+    
 
 
     }
