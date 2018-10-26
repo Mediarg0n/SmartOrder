@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Login_Küche</title>
+</head>
+
+<body>
+ 
+
+ <form name="password">
+
+
+	
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+    
+	
+	<button onclick="checkPassword()">Login</button>
+</form> 
+
+<script>
+function checkPassword(){
+var msg1 = document.querySelector("#username").value;
+var msg2 = document.querySelector("#password").value;
+if(msg1=='Test'&& msg2=='Test')
+window.open('index.html');
+else
+alert("Wrong")}
+</script>
+
+</body>
+</html> 
+
+
+
