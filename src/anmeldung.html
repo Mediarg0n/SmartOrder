@@ -2,11 +2,18 @@
 <html>
 <head>
 <title>Login_Küche</title>
+<link rel="stylesheet" href="css/anmeldung.css" />
+<!-- 
+<script src="javascript/passwordcheck.js"></script>
+
+--> 
+
 </head>
 
 <body>
  
-
+<div class="log-form">
+<h2>Login zur Küchenansicht</h2>
  <form name="password">
 
 
@@ -21,7 +28,7 @@
 	
 	<button onclick="checkPassword()">Login</button>
 </form> 
-
+</div><!--end log form -->
 <script>
 function checkPassword(){
 var msg1 = document.querySelector("#username").value;
@@ -31,6 +38,8 @@ window.open('index.html');
 else
 alert("Wrong")}
 </script>
+
+
 
 </body>
 </html> 
