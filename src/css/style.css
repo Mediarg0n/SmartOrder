@@ -5,12 +5,13 @@ header{
   position: relative;
   margin-bottom: 1vh;
   height: 10vh;
+
+
 }
 
 asside{
   display: inline-block;
-  position: absolute;
-  left:0;
+  float:left;
   width: 7vw;
 
 }
@@ -28,6 +29,8 @@ overflow-x: hidden;
       height: 90vh;
       overflow-x: hidden;
       width:92vw;
+      float: right;
+
 
     }
 
@@ -35,22 +38,22 @@ overflow-x: hidden;
       background-color: #57EF84;
       margin-bottom: 1em;
     }
-    .divBild{
-      overflow: hidden;
-    }
+
     .divBild>img{
       height: 120px;
       width: 200px;
+
     }
+    .divArtikelDetails{overflow: hidden;}
 
     .spanArtikelTitel{
       font-weight: bolder;
     }
+
     .divOrder{
       position: absolute;
       bottom: 0;
-      padding-right: 2em;
-      width: 100%;
+      
 
     }
     .buttonBestellen{
@@ -58,9 +61,7 @@ overflow-x: hidden;
       float: right;
       margin-right: 3px;
     }
-    .spanPreis{
-        display: inline-block;
-    }
+
 
 
 /*    .Artikel{
@@ -93,9 +94,8 @@ height: 3em;
     display: none ;
   }
 
-  .scrollspy{
-    margin-left: 150px;
-  }
+
+  header{min-height: 10ex;}
 }
 
 
@@ -124,7 +124,7 @@ header{ height:0%;}
 
 .divBild>img{
   height: 90px;
-  width: 150px;
+  width: 160px;
 }
 
   header img{
