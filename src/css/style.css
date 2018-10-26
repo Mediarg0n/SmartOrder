@@ -38,22 +38,22 @@ overflow-x: hidden;
       background-color: #57EF84;
       margin-bottom: 1em;
     }
-    .divBild{
-      overflow: hidden;
-    }
+
     .divBild>img{
       height: 120px;
       width: 200px;
+
     }
+    .divArtikelDetails{overflow: hidden;}
 
     .spanArtikelTitel{
       font-weight: bolder;
     }
+
     .divOrder{
       position: absolute;
       bottom: 0;
-      padding-right: 2em;
-
+      
 
     }
     .buttonBestellen{
@@ -61,9 +61,7 @@ overflow-x: hidden;
       float: right;
       margin-right: 3px;
     }
-    .spanPreis{
-        display: inline-block;
-    }
+
 
 
 /*    .Artikel{
@@ -126,7 +124,7 @@ header{ height:0%;}
 
 .divBild>img{
   height: 90px;
-  width: 150px;
+  width: 160px;
 }
 
   header img{
