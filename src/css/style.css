@@ -5,6 +5,8 @@ header{
   position: relative;
   margin-bottom: 1vh;
   height: 10vh;
+  min-height: 10ex;
+
 }
 
 asside{
@@ -50,7 +52,7 @@ overflow-x: hidden;
       position: absolute;
       bottom: 0;
       padding-right: 2em;
-      width: 100%;
+
 
     }
     .buttonBestellen{
