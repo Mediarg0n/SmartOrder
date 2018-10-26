@@ -5,14 +5,13 @@ header{
   position: relative;
   margin-bottom: 1vh;
   height: 10vh;
-  min-height: 10ex;
+
 
 }
 
 asside{
   display: inline-block;
-  position: absolute;
-  left:0;
+  float:left;
   width: 7vw;
 
 }
@@ -30,6 +29,8 @@ overflow-x: hidden;
       height: 90vh;
       overflow-x: hidden;
       width:92vw;
+      float: right;
+
 
     }
 
@@ -95,9 +96,8 @@ height: 3em;
     display: none ;
   }
 
-  .scrollspy{
-    margin-left: 150px;
-  }
+
+  header{min-height: 10ex;}
 }
 
 
