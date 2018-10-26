@@ -3,67 +3,65 @@ header{
   background-color: lightgrey;
   color:white;
   position: relative;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1vh;
+  height: 10vh;
+
+
 }
 
 asside{
   display: inline-block;
-  position: fixed;
+  float:left;
+  width: 7vw;
 
 }
 
-main{
-
-
-
-
-
+html{
+overflow-y: hidden;
+overflow-x: hidden;
 }
 
 
 .scrollspy{
 
       display: inline-block;
-    
+      overflow-y: auto;
+      height: 90vh;
+      overflow-x: hidden;
+      width:92vw;
+      float: right;
 
 
     }
-
 
     .divArtikel{
-      height: 120px;
-      overflow: hidden;
-      background-color: lightgrey;
+      background-color: #57EF84;
       margin-bottom: 1em;
     }
-    .divBild{
-      overflow: hidden;
-    }
+
     .divBild>img{
       height: 120px;
       width: 200px;
+
     }
-    .divArtikelDetails{
-      height: 120px;
-    }
+    .divArtikelDetails{overflow: hidden;}
+
     .spanArtikelTitel{
       font-weight: bolder;
     }
+
     .divOrder{
-      width: 100%;
       position: absolute;
       bottom: 0;
-      padding-right: 2em;
+      
 
     }
     .buttonBestellen{
       display: inline-block;
       float: right;
+      margin-right: 3px;
     }
-    .spanPreis{
-        display: inline-block;
-    }
+
 
 
 /*    .Artikel{
@@ -91,18 +89,21 @@ height: 3em;
 }
 
 
-@media (min-width:800px){
+@media (min-width:600px){
   #nav_small{
     display: none ;
   }
 
-  .scrollspy{
-    margin-left: 150px;
-  }
+
+  header{min-height: 10ex;}
 }
 
 
-@media (max-width: 800px){
+
+
+
+
+@media (max-width: 600px){
   #nav_large{
     display: none;
   }
@@ -112,8 +113,23 @@ height: 3em;
     display: none;
   }
 
+  .scrollspy{
+width: 100vw;
+
+  }
+
+header{ height:0%;}
+
+.navbar{margin-bottom: 0px;}
+
+.divBild>img{
+  height: 90px;
+  width: 160px;
+}
+
   header img{
   width: 2em;
   height: 2em;
+  float:left;
   }
 }
