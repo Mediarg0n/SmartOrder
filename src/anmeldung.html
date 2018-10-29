@@ -1,34 +1,24 @@
- <!DOCTYPE html>
-<html>
-<head>
-<title>Login_Küche</title>
-<link rel="stylesheet" href="css/anmeldung.css" />
-<!-- 
-<script src="javascript/passwordcheck.js"></script>
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/anmeldung.css" />
+    <title>Titel</title>
+  </head>
+  <body>
+	<div class="login-page">
+  <div class="form">
+    <a>LogIn</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="Benutzername" id="username"/>
+      <input type="password" placeholder="Passwort" id="password"/>
+      <button onclick="checkPassword()">Login</button>
 
---> 
-
-</head>
-
-<body>
- 
-<div class="log-form">
-<h2>Login zur Küchenansicht</h2>
- <form name="password">
-
-
-	
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" id="username" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="password" required>
-
-    
-	
-	<button onclick="checkPassword()">Login</button>
-</form> 
-</div><!--end log form -->
+   </form>
+  </div>
+</div>
 <script>
 function checkPassword(){
 var msg1 = document.querySelector("#username").value;
@@ -38,11 +28,5 @@ window.open('index.html');
 else
 alert("Wrong")}
 </script>
-
-
-
-</body>
-</html> 
-
-
-
+  </body>
+</html>
