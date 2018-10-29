@@ -90,17 +90,51 @@ height: 3em;
 
 
 
-@media (max-width: 650px){
+@media (min-width:601px) and (max-width: 701px ){
 
     .scrollspy{  width: 80vw;  }
 
 }
+@media (min-width:702px) and (max-width: 801px ){
 
-@media (max-width: 700px){
-
-    .scrollspy{  width: 81vw;  }
+    .scrollspy{  width: 82vw;  }
 
 }
+@media (min-width:802px) and (max-width: 901px ){
+
+    .scrollspy{  width: 84vw;  }
+
+}
+@media (min-width:902px) and (max-width: 1001px ){
+
+    .scrollspy{  width: 86vw;  }
+
+}
+@media (min-width:1002px) and (max-width: 1101px ){
+
+    .scrollspy{  width: 88vw;  }
+
+}
+@media (min-width:1102px) and (max-width: 1201px ){
+
+    .scrollspy{  width: 89vw;  }
+
+}
+@media (min-width:1202px) and (max-width: 1301px ){
+
+    .scrollspy{  width: 90vw;  }
+
+}
+@media (min-width:1302px) and (max-width: 1470px ){
+
+    .scrollspy{  width: 91vw;  }
+
+}
+
+
+
+
+
 
 
 

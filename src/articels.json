@@ -14,7 +14,32 @@
           "beschreibung" : "frisches Knoblauchbrot mit Dip",
           "preis" : 3.20,
           "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Tomaten",
+          "beschreibung" : "Salal ankjdskjashkjfhsakjfd khkjahdsfkj hkjhsadkjfhsadhf kjhakjshdfkj hkjsahdf hhdsfkj hkjsahdfkjhsadjfh kjhadhahfd kjhasdhfahfkj hsafhadshf kjahdskjfha ",
+          "preis" : 3.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Petersilie",
+          "beschreibung" : "frisches Knoblauchbrot mit Dip",
+          "preis" : 3.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Maultaschen",
+          "beschreibung" : "kleiner gemischter Salat",
+          "preis" : 3.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Äpfel",
+          "beschreibung" : "frisches Knoblauchbrot mit Dip",
+          "preis" : 3.20,
+          "image" : "Knoblauchbrot.jpg"
         }
+
       ]
     },
     {
@@ -30,6 +55,30 @@
           "name" : "Diavolo",
           "beschreibung" : "lecker scharf",
           "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Avocado",
+          "beschreibung" : "Mobile First means designing for mobile before designing for desktop or any other device (This will make the page display faster on smaller devices.This means that we must make some changes in our CSS.Instead of changing styles when the width gets smaller than 768px, we should change the design when the width gets larger than 768px. This will make our design Mobile First:",
+          "preis" : 3.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Chickenburger",
+          "beschreibung" : "frisches Knoblauchbrot mit Dip",
+          "preis" : 3.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Lammkeule",
+          "beschreibung" : "kleiner gemischter Salat",
+          "preis" : 3.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Schwein",
+          "beschreibung" : "frisches Knoblauchbrot mit Dip",
+          "preis" : 3.20,
           "image" : "Knoblauchbrot.jpg"
         }
       ]
@@ -48,7 +97,32 @@
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Gammelfleisch",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Spätzle",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Rostbraten",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Pommer",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
         }
+
       ]
     },
     {
@@ -64,6 +138,30 @@
           "name" : "kleiner Döner",
           "beschreibung" : "mit ohne ohne Scharf",
           "preis" : 1.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Donut",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Käse",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Kekse",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Petersilie",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
         }
       ]
@@ -82,6 +180,30 @@
           "beschreibung" : "Vollmilch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Pannacotta",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Rittersport",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Eis",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "BigMac",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
         }
       ]
     },
@@ -97,6 +219,30 @@
         {
           "name" : "Cheeseburger",
           "beschreibung" : "Vollmilch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Banane",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "PickUp",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Joghurt",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Pudding",
+          "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
         }
