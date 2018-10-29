@@ -3,11 +3,52 @@ body {
 }
 #div1{
 	height:150px;
-	width:300px;
+	width:250px;
 	border:1px solid black;
 	background-color: green;
-	animation: change 15s step-end both;
+	animation: change 4s step-end both;
 }
+
+#div2{
+	height:150px;
+	width:250px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 8s step-end both;
+}
+
+#div3{
+	height:150px;
+	width:250px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 12s step-end both;
+}
+
+#div4{
+	height:150px;
+	width:250px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 16s step-end both;
+}
+
+#div5{
+	height:150px;
+	width:250px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 20s step-end both;
+}
+
+#div6{
+	height:150px;
+	width:250px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 24s step-end both;
+}
+
 
 @keyframes change {
     from { background-color: green }
