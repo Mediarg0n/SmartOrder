@@ -84,5 +84,22 @@
           "image" : "Knoblauchbrot.jpg"
         }
       ]
+    },
+    {
+      "groupname" : "McDonalds",
+      "list" : [
+        {
+          "name" : "Hamburger",
+          "beschreibung" : "lecker",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Cheeseburger",
+          "beschreibung" : "Vollmilch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
     }
   ]

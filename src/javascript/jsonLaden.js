@@ -133,7 +133,7 @@ window.addEventListener("load", ()=> {
                 buttonBestellen.classList.add("buttonBestellen");
                 buttonBestellen.type = "button";
                 buttonBestellen.onclick = "alert('Sie haben "+listItem.name+" bestellt.')";
-                  buttonBestellen.innerHTML = "Bestellungen";
+                  buttonBestellen.innerHTML = "Bestellen";
                 divOrder.appendChild(buttonBestellen);
 
 
