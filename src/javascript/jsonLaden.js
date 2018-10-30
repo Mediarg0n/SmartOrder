@@ -132,6 +132,7 @@ window.addEventListener("load", ()=> {
                 let buttonBestellen = document.createElement("button");
                 buttonBestellen.classList.add("buttonBestellen");
                 buttonBestellen.type = "button";
+<<<<<<< HEAD
                 buttonBestellen.id = "button"+listItem.name;
                 buttonBestellen.onclick = () =>{
                   $.ajax({
@@ -150,6 +151,10 @@ window.addEventListener("load", ()=> {
                 }
 
                   buttonBestellen.innerHTML = "Bestellungen";
+=======
+                buttonBestellen.onclick = "alert('Sie haben "+listItem.name+" bestellt.')";
+                  buttonBestellen.innerHTML = "Bestellen";
+>>>>>>> 2f1d1b58d746b9a2f7886d154acff3bb6eab48ec
                 divOrder.appendChild(buttonBestellen);
 
 

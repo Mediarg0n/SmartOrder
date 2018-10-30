@@ -6,6 +6,7 @@
   box-sizing: border-box;*/
   background: #FFF;
   cursor: default;
+  overflow-y: auto;
 
   /*overflow: auto;
   -webkit-box-shadow:1px 4px 3px rgba(50, 50, 50, 0.64);
@@ -21,7 +22,7 @@
   padding: 2px 5px;
 }
 
-#autocomplete{
+.autocomplete{
 
   color:green;
 }

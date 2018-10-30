@@ -18,7 +18,7 @@ autocomplete = (JSONDATA) =>{
         g = g.concat(groups[groups.length-1]);
     });
     // Initialize autocomplete with local lookup:
-    $('#autocomplete').devbridgeAutocomplete({
+    $('.autocomplete').devbridgeAutocomplete({
         lookup: g,
         minChars: 1,
         onSelect: (suggestion)=> {

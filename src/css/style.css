@@ -13,6 +13,9 @@ asside{
   display: inline-block;
   float:left;
   width: 7vw;
+  min-width: 15ex;
+  margin-right: 1ex;
+
 
 }
 
@@ -28,9 +31,8 @@ overflow-x: hidden;
       overflow-y: auto;
       height: 90vh;
       overflow-x: hidden;
-      width:92vw;
+      width: 92vw;
       float: right;
-
 
     }
 
@@ -39,28 +41,28 @@ overflow-x: hidden;
       margin-bottom: 1em;
     }
 
+.divBild{overflow: hidden;}
     .divBild>img{
       height: 120px;
       width: 200px;
 
     }
-    .divArtikelDetails{overflow: hidden;}
+
 
     .spanArtikelTitel{
       font-weight: bolder;
     }
 
     .divOrder{
-      position: absolute;
-      bottom: 0;
-      
 
     }
     .buttonBestellen{
-      display: inline-block;
+
       float: right;
       margin-right: 3px;
     }
+
+    
 
 
 
@@ -89,7 +91,56 @@ height: 3em;
 }
 
 
-@media (min-width:600px){
+
+@media (min-width:601px) and (max-width: 701px ){
+
+    .scrollspy{  width: 80vw;  }
+
+}
+@media (min-width:702px) and (max-width: 801px ){
+
+    .scrollspy{  width: 82vw;  }
+
+}
+@media (min-width:802px) and (max-width: 901px ){
+
+    .scrollspy{  width: 84vw;  }
+
+}
+@media (min-width:902px) and (max-width: 1001px ){
+
+    .scrollspy{  width: 86vw;  }
+
+}
+@media (min-width:1002px) and (max-width: 1101px ){
+
+    .scrollspy{  width: 88vw;  }
+
+}
+@media (min-width:1102px) and (max-width: 1201px ){
+
+    .scrollspy{  width: 89vw;  }
+
+}
+@media (min-width:1202px) and (max-width: 1301px ){
+
+    .scrollspy{  width: 90vw;  }
+
+}
+@media (min-width:1302px) and (max-width: 1470px ){
+
+    .scrollspy{  width: 91vw;  }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:601px){
   #nav_small{
     display: none ;
   }
@@ -97,9 +148,6 @@ height: 3em;
 
   header{min-height: 10ex;}
 }
-
-
-
 
 
 
