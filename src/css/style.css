@@ -1,13 +1,3 @@
-header{
-
-  background-color: lightgrey;
-  color:white;
-  position: relative;
-  margin-bottom: 1vh;
-  height: 10vh;
-
-
-}
 
 asside{
   display: inline-block;
@@ -17,6 +7,16 @@ asside{
   margin-right: 1ex;
 
 
+}
+
+#head{
+  float:right;
+}
+
+header img{
+width: 2em;
+height: 2em;
+float:left;
 }
 
 html{
@@ -76,23 +76,14 @@ margin-bottom: 1em;
 div img{
   width: 80px;
 }*/
-header h1{
-display: inline-block;
+
+
+@media (min-width:576px) and (max-width: 601px ){
+
+    .scrollspy{  width: 79vw;  }
 
 }
-
-
-
-header img{
-width: 3em;
-height: 3em;
-
-
-}
-
-
-
-@media (min-width:601px) and (max-width: 701px ){
+@media (min-width:601px) and (max-width: 702px ){
 
     .scrollspy{  width: 80vw;  }
 
@@ -140,44 +131,28 @@ height: 3em;
 
 
 
-@media (min-width:601px){
-  #nav_small{
+@media (min-width:576px){
+  #nav_small_ul{
     display: none ;
   }
 
 
-  header{min-height: 10ex;}
 }
 
-
-
-@media (max-width: 600px){
+@media (max-width: 575.9px){
   #nav_large{
-    display: none;
-  }
-
-  #header_large{
-
     display: none;
   }
 
   .scrollspy{
 width: 100vw;
-
   }
 
-header{ height:0%;}
-
-.navbar{margin-bottom: 0px;}
 
 .divBild>img{
   height: 90px;
   width: 160px;
 }
 
-  header img{
-  width: 2em;
-  height: 2em;
-  float:left;
-  }
+
 }
