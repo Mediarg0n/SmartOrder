@@ -20,10 +20,10 @@ let loadJSON = (file,callback) =>{
 //Björn (Christian)
 window.addEventListener("load", ()=> {
 
+   
+
   loadJSON('articels.json', (text) => {
       let JSONDATA = JSON.parse(text);
-      console.log(JSONDATA);
-      console.log("loadJSON");
       //Beispiel für Einfügen
       JSONDATA.splice(1,0,  {
           "groupname" : "Essen",
@@ -132,46 +132,43 @@ window.addEventListener("load", ()=> {
                 let buttonBestellen = document.createElement("button");
                 buttonBestellen.classList.add("buttonBestellen");
                 buttonBestellen.type = "button";
+<<<<<<< HEAD
+                buttonBestellen.id = "button"+listItem.name;
+                buttonBestellen.onclick = () =>{
+                  $.ajax({
+                    url:"insert.php",
+                    type:"POST",
+                    data:{tisch :3, gericht:  listItem.name, date: Date.now()},
+                    datatype: "text",
+                    success: (data, textStatus, jqXHR) =>
+                    {
+                       alert(this.data + "," + this.url);
+                    },
+                    error: (XMLHttpRequest, textStatus, errorThrown) => {
+                      alert("Status: " + textStatus + " Error: " + errorThrown);
+                    }
+                  })
+                }
+
+                  buttonBestellen.innerHTML = "Bestellungen";
+=======
                 buttonBestellen.onclick = "alert('Sie haben "+listItem.name+" bestellt.')";
                   buttonBestellen.innerHTML = "Bestellen";
+>>>>>>> 2f1d1b58d746b9a2f7886d154acff3bb6eab48ec
                 divOrder.appendChild(buttonBestellen);
+
+
 
 
               divArtikelDetails.appendChild(divOrder);
 
             divArtikel.appendChild(divArtikelDetails);
           divGroup.appendChild(divArtikel);
-          console.log(divArtikel);
 
-
-          /*alt
-          let divElement = document.createElement("div");
-          divElement.id = listItem.name.replace(/ /g, '_');
-          divElement.classList.add("Artikel");
-
-          let hArtikelName = document.createElement("h5");
-          hArtikelName.textContent = listItem.name;
-          divElement.appendChild(hArtikelName);
-          let divBeschreibung = document.createElement("div");
-          divBeschreibung.innerHTML = listItem.beschreibung +
-          "<button type=\"button\" onclick=\"alert('Sie haben "+listItem.name+" bestellt.')\">Bestellen</button>";
-          divElement.appendChild(divBeschreibung);
-
-          let spanPreis = document.createElement("span");
-          spanPreis.textContent= listItem.preis;
-          divElement.appendChild(spanPreis);
-
-          let imgElement = document.createElement("img");
-          imgElement.src = "img/"+listItem.image;
-          divElement.appendChild(imgElement);
-
-          divGroup.appendChild(divElement);
-          */
         })
         scrollspy.appendChild(divGroup);
 
       });
-      console.log("JSON geladen");
       autocomplete(JSONDATA);
     }
   );
