@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/style_küche.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,9 +20,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    $("#b1").click(function(){
         $("#div1").remove();
 		$("#b1").remove();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#b2").click(function(){
+        $("#div2").remove();
+		$("#b2").remove();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#b3").click(function(){
+        $("#div3").remove();
+		$("#b3").remove();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#b4").click(function(){
+        $("#div4").remove();
+		$("#b4").remove();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#b5").click(function(){
+        $("#div5").remove();
+		$("#b5").remove();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#b6").click(function(){
+        $("#div6").remove();
+		$("#b6").remove();
     });
 });
 </script>
@@ -58,69 +102,61 @@ $(document).ready(function(){
 <div class="row">
 
 <!--Element-->
-<div id="div1">
-
+<div id="div1" class="col-md-4">
+<p>Tisch Nr. : 1</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b1">Bestellung ist fertig</button>
 </div>
 <!--Element-->
-<div id="div2">
-
+<div id="div2" class="col-md-4">
+<p>Tisch Nr. : 2</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b2">Bestellung ist fertig</button>
 </div>
 
 <!--Element-->
-<div id="div3">
-
+<div id="div3" class="col-md-4">
+<p>Tisch Nr. : 3</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b3">Bestellung ist fertig</button>
 </div>
 </div>
 
 <div class="row">
 
 <!--Element-->
-<div id="div4">
-
+<div id="div4" class="col-md-4">
+<p>Tisch Nr. : 4</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b4">Bestellung ist fertig</button>
 </div>
 
 
-<div id="div5">
-
+<div id="div5" class="col-md-4">
+<p>Tisch Nr. : 5</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b5">Bestellung ist fertig</button>
 </div>
 
-<div id="div6">
-
+<div id="div6" class="col-md-4">
+<p>Tisch Nr. : 6</p>
 <p>Bestellung Nr. :</p>
 <p>Gericht : </p>
-<p>Tisch Nr. :</p>
 <p>Bestellzeitpunkt :</p>
-
+<button id="b6">Bestellung ist fertig</button>
 </div>
 </div>
 
 <br>
-
-<button id="b1">Bestellung ist fertig</button>
   </body>
 </html>
