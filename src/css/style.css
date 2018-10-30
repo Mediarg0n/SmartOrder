@@ -62,7 +62,7 @@ overflow-x: hidden;
       margin-right: 3px;
     }
 
-    
+
 
 
 
@@ -97,32 +97,32 @@ height: 3em;
     .scrollspy{  width: 80vw;  }
 
 }
-@media (min-width:702px) and (max-width: 801px ){
+@media (min-width:702px) and (max-width: 802px ){
 
     .scrollspy{  width: 82vw;  }
 
 }
-@media (min-width:802px) and (max-width: 901px ){
+@media (min-width:802px) and (max-width: 902px ){
 
     .scrollspy{  width: 84vw;  }
 
 }
-@media (min-width:902px) and (max-width: 1001px ){
+@media (min-width:902px) and (max-width: 1002px ){
 
     .scrollspy{  width: 86vw;  }
 
 }
-@media (min-width:1002px) and (max-width: 1101px ){
+@media (min-width:1002px) and (max-width: 1102px ){
 
     .scrollspy{  width: 88vw;  }
 
 }
-@media (min-width:1102px) and (max-width: 1201px ){
+@media (min-width:1102px) and (max-width: 1202px ){
 
     .scrollspy{  width: 89vw;  }
 
 }
-@media (min-width:1202px) and (max-width: 1301px ){
+@media (min-width:1202px) and (max-width: 1302px ){
 
     .scrollspy{  width: 90vw;  }
 

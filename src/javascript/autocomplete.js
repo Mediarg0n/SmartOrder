@@ -11,7 +11,6 @@ autocomplete = (JSONDATA) =>{
       group.list.forEach(listItem => {
         item.push(listItem.name);
       });
-      console.log(item);
       groups.push($.map(item, (g) =>{ return { value: g, data: { category: group.groupname}}}));
       if(groups.length==1)
         g = groups[groups.length-1];
@@ -24,6 +23,7 @@ autocomplete = (JSONDATA) =>{
         minChars: 1,
         onSelect: (suggestion)=> {
           document.getElementById(suggestion.value.replace(/ /g, '_')).scrollIntoView(true);
+        
 
           //  $('#selection').html('You selected: ' + suggestion.value + ', ' + suggestion.data.category);
         },
