@@ -23,6 +23,7 @@ autocomplete = (JSONDATA) =>{
         minChars: 1,
         onSelect: (suggestion)=> {
           document.getElementById(suggestion.value.replace(/ /g, '_')).scrollIntoView(true);
+        
 
           //  $('#selection').html('You selected: ' + suggestion.value + ', ' + suggestion.data.category);
         },
