@@ -9,6 +9,13 @@ asside{
 
 }
 
+.autocomplete{
+
+border: none;
+
+
+}
+
 #head{
   float:right;
 }
@@ -144,8 +151,14 @@ div img{
     display: none;
   }
 
+  html{
+overflow-y: auto;
+
+  }
+
   .scrollspy{
 width: 100vw;
+height: auto;
   }
 
 

@@ -75,8 +75,6 @@ window.addEventListener("load", ()=> {
 
         let groupRef_small = document.createElement("li");
         groupRef_small.classList.add("nav-item");
-        groupRef_small.setAttribute("data-toggle","collapse");
-        groupRef_small.setAttribute("data-target","#navbarSupportedContent");
         nav_small.appendChild(groupRef_small);
 
         let navlink = document.createElement("a");
