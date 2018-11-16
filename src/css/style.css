@@ -84,6 +84,7 @@ overflow-x: hidden;
 
     .buttonBestellen{
 
+
       float: right;
       border:none;
       height:100%;
@@ -91,6 +92,18 @@ overflow-x: hidden;
       text-align: center;
       transition-duration: 0.4s;
       background-color: #F0F0F0;
+
+
+    }
+
+    @media(max-width:480px){
+
+.buttonBestellen{
+
+padding-right: 60px;
+
+}
+
 
     }
 
