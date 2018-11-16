@@ -1,7 +1,7 @@
 
   [
     {
-      "groupname" : "Vorspeisen",
+      "groupname" : "Vspeisen",
       "list" : [
         {
           "name" : "Vorspeisensalat",
@@ -17,7 +17,7 @@
         },
         {
           "name" : "Tomaten",
-          "beschreibung" : "Salal ankjdskjashkjfhsakjfd khkjahdsfkj hkjhsadkjfhsadhf kjhakjshdfkj hkjsahdf hhdsfkj hkjsahdfkjhsadjfh kjhadhahfd kjhasdhfahfkj hsafhadshf kjahdskjfha ",
+          "beschreibung" : "kjahdskjfha ",
           "preis" : 3.20,
           "image" : "vorspeisensalat1.jpg"
         },
@@ -59,7 +59,7 @@
         },
         {
           "name" : "Avocado",
-          "beschreibung" : "Mobile First means designing for mobile before designing for desktop or any other device (This will make the page display faster on smaller devices.This means that we must make some changes in our CSS.Instead of changing styles when the width gets smaller than 768px, we should change the design when the width gets larger than 768px. This will make our design Mobile First:",
+          "beschreibung" : "e design when the width gets larger than 768px. This will make our design Mobile First:",
           "preis" : 3.20,
           "image" : "vorspeisensalat1.jpg"
         },

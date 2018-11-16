@@ -161,7 +161,7 @@ window.addEventListener("load", ()=> {
 
               divArtikelDetails.appendChild(divOrder);
 
-          
+
             divArtikel.appendChild(divArtikelDetails);
             divArtikel.appendChild(button);
           divGroup.appendChild(divArtikel);

@@ -11,14 +11,20 @@ asside{
 
 .autocomplete{
 
-border: none;
+border-color: grey;
+border-width: thin;
 
 
 }
+
+
 
 #head{
   float:right;
 }
+
+
+
 
 header img{
 width: 2em;
@@ -44,7 +50,7 @@ overflow-x: hidden;
     }
 
     .divArtikel{
-      background-color: #57EF84;
+      background-color: #81F781;
       margin-bottom: 1em;
     }
 
@@ -60,9 +66,7 @@ overflow-x: hidden;
       font-weight: bolder;
     }
 
-    .divOrder{
 
-    }
     .buttonBestellen{
 
       float: right;
@@ -71,13 +75,22 @@ overflow-x: hidden;
       width: 100%;
       text-align: center;
       transition-duration: 0.4s;
+      background-color: #F0F0F0;
 
     }
 
     .buttonBestellen:hover{
 
-        background-color: #57EF84;
+        background-color: #81F781;
+
     }
+    .buttonBestellen:active{
+
+        background-color: #F0F0F0;
+
+    }
+
+
 
 
 
@@ -163,6 +176,7 @@ div img{
 
   html{
 overflow-y: auto;
+
 
   }
 
