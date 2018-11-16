@@ -25,7 +25,7 @@ window.addEventListener("load", ()=> {
   loadJSON('articels.json', (text) => {
       let JSONDATA = JSON.parse(text);
       //Beispiel für Einfügen
-      JSONDATA.splice(1,0,  {
+    /*  JSONDATA.splice(1,0,  {
           "groupname" : "Essen",
           "list" : [
             {
@@ -41,7 +41,7 @@ window.addEventListener("load", ()=> {
               "image" : "Knoblauchbrot.jpg"
             }
           ]
-        });
+        });*/
 
 
 
@@ -137,7 +137,6 @@ window.addEventListener("load", ()=> {
                   buttonBestellen.textContent = "Bestellen";
                 buttonBestellen.id = "button"+listItem.name;
                 buttonBestellen.onclick = () =>{
-                  alert("sa");
                   $.ajax({
                     url:"insert.php",
                     type:"POST",
@@ -145,7 +144,7 @@ window.addEventListener("load", ()=> {
                     datatype: "text",
                     success: (data, textStatus, jqXHR) =>
                     {
-                       alert(this.data + "," + this.url);
+                       alert("Sieh haben "+listItem.name+" bestellt");
                     },
                     error: (XMLHttpRequest, textStatus, errorThrown) => {
                       alert("Status: " + textStatus + " Error: " + errorThrown);
