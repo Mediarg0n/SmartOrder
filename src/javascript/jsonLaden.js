@@ -107,7 +107,7 @@ window.addEventListener("load", ()=> {
 
             let divArtikelDetails = document.createElement("div");
             divArtikelDetails.classList.add("divArtikelDetails");
-            divArtikelDetails.classList.add("col-xs-9");
+            divArtikelDetails.classList.add("col-xs-6");
 
               let spanArtikelTitel = document.createElement("span");
               spanArtikelTitel.classList.add("spanArtikelTitel");
@@ -126,6 +126,10 @@ window.addEventListener("load", ()=> {
                 spanPreis.classList.add("spanPreis");
                   spanPreis.innerHTML = listItem.preis;
                 divOrder.appendChild(spanPreis);
+
+
+                let button = document.createElement("div");
+                button.classList.add("col-xs-3");
 
                 let buttonBestellen = document.createElement("button");
                 buttonBestellen.classList.add("buttonBestellen");
@@ -151,14 +155,16 @@ window.addEventListener("load", ()=> {
 
 
 
-                divOrder.appendChild(buttonBestellen);
+              button.appendChild(buttonBestellen);
 
 
 
 
               divArtikelDetails.appendChild(divOrder);
 
+          
             divArtikel.appendChild(divArtikelDetails);
+            divArtikel.appendChild(button);
           divGroup.appendChild(divArtikel);
 
         })
