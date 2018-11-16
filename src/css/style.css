@@ -11,8 +11,8 @@ asside{
 
 .autocomplete{
 
-border-color: grey;
-border-width: thin;
+
+margin-top: 18px;
 
 
 }
@@ -21,6 +21,9 @@ border-width: thin;
 
 #head{
   float:right;
+  margin-top: 8px;
+
+
 }
 
 
@@ -35,6 +38,7 @@ float:left;
 html{
 overflow-y: hidden;
 overflow-x: hidden;
+
 }
 
 
@@ -178,6 +182,12 @@ div img{
   html{
 overflow-y: auto;
 
+
+  }
+
+  .autocomplete{
+
+margin-top: 0px;
 
   }
 
