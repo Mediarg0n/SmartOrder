@@ -9,19 +9,29 @@ asside{
 
 }
 
+
+.navbar{
+
+height: 70px;
+border-radius: 0px;
+
+
+}
 .autocomplete{
 
 
-margin-top: 18px;
+margin-top: 7px;
+border: none;
+box-shadow: 5px 5px 5px grey;
 
 
 }
 
 
-
 #head{
   float:right;
-  margin-top: 8px;
+  margin-top: 3px;
+
 
 
 }
@@ -30,6 +40,7 @@ margin-top: 18px;
 
 
 header img{
+margin-top: -6px;
 width: 2em;
 height: 2em;
 float:left;
@@ -185,15 +196,23 @@ overflow-y: auto;
 
   }
 
+
   .autocomplete{
 
 margin-top: 0px;
+box-shadow: none;
+width: 100%;
+
 
   }
+  .navbar{
 
-  .scrollspy{
-width: 100vw;
 height: auto;
+  }
+  .scrollspy{
+
+    width: 100vw;
+    height: auto;
   }
 
 
