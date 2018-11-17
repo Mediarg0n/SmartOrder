@@ -67,13 +67,19 @@ overflow-x: hidden;
 
     .divArtikel{
       background-image: url("../img/wood.jpg");
-      background-position: right 250px top -450px;
+      background-position: right 0 top 0;
       margin-bottom: 1em;
     }
 
-    @media (max-width:1160px){
+    @media (max-width:1200px){
 .divArtikel{
-background-position: right 0px top -450px;
+background-position: right -150px top 0;
+
+    }}
+
+    @media (max-width:1000px){
+.divArtikel{
+background-position: right -250px top 0;
 
     }}
 
