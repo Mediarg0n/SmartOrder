@@ -18,6 +18,8 @@ Hierzu muss der SmartOrder Order in den entsprechenden htdocs Ordner des Program
  
  Sobald die Server laufen kann über die den localhost auf die Anwendung zugegriffen werden. 
  
+ Damit die Bestellten Produkte auch gespeichert werden können müssen Sie nun die db_order.sql in das MySQL importieren.
+ 
  Da die Kundenansicht die index.html ist kann man diese nun unter 
   localhost/SmartOrder2/src/
  erreichen. 
