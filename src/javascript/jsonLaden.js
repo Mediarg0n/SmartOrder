@@ -68,7 +68,7 @@ window.addEventListener("load", ()=> {
         groupRef_small.appendChild(navlink);
 
 
-        let groupTitle = document.createElement("h4");
+        let groupTitle = document.createElement("h3");
         groupTitle.textContent = group.groupname;
         divGroup.appendChild(groupTitle);
 

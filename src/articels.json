@@ -206,48 +206,77 @@
           "image" : "tiramisu.jpg"
         }
       ]
-    }
-
-,
+    },
     {
       "groupname" : "Getränke",
       "list" : [
         {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
+          "name" : "Wasser classic",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Wasser medium",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Wasser still",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Coca-Cola",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "cola.jpg"
         },
         {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Fanta",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "fanta.jpg"
         },
         {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "MezzoMix",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "mezzo.jpg"
+        },
+        {
+          "name" : "Rotwein",
+          "beschreibung" : "0,25 l ",
+          "preis" : "0,25 l",
+          "image" : "wein.jpg"
+        },
+        {
+          "name" : "Weißwein",
+          "beschreibung" : "0,25 l",
+          "preis" : "4.00 €",
+          "image" : "wein.jpg"
+        },
+        {
+          "name" : "Rothaus",
+          "beschreibung" : "0,5 l",
+          "preis" : "3.50 €",
+          "image" : "bier.jpg"
+        },
+        {
+          "name" : "Stuttgarter Hofbräu",
+          "beschreibung" : "0,5 l",
+          "preis" : "3.50 €",
+          "image" : "bier.jpg"
+        },
+        {
+          "name" : "kein Radler",
+          "beschreibung" : "Radler ist kein Alkohol!!!",
+          "preis" : "--- €",
+          "image" : "radler.jpg"
         }
+
       ]
     }
   ]
