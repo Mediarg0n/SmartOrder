@@ -25,23 +25,7 @@ window.addEventListener("load", ()=> {
   loadJSON('articels.json', (text) => {
       let JSONDATA = JSON.parse(text);
       //Beispiel für Einfügen
-    /*  JSONDATA.splice(1,0,  {
-          "groupname" : "Essen",
-          "list" : [
-            {
-              "name" : "Vorspeisensalat",
-              "beschreibung" : "kleiner gemischter Salat",
-              "preis" : 3.20,
-              "image" : "vorspeisensalat1.jpg"
-            },
-            {
-              "name" : "Knoblauchbrot",
-              "beschreibung" : "frisches Knoblauchbrot mit Dip",
-              "preis" : 3.20,
-              "image" : "Knoblauchbrot.jpg"
-            }
-          ]
-        });*/
+
 
 
 

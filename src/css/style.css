@@ -2,31 +2,46 @@
 asside{
   display: inline-block;
   float:left;
-  width: 7vw;
+  width: 7.5vw;
   min-width: 15ex;
   margin-right: 1ex;
 
 
+
 }
 
+
+.navbar{
+
+height: 70px;
+border-radius: 0px;
+
+
+}
 .autocomplete{
 
-border-color: grey;
-border-width: thin;
+
+margin-top: 7px;
+border: none;
+box-shadow: 5px 5px 5px grey;
 
 
 }
-
 
 
 #head{
   float:right;
+  margin-top: 3px;
+
+
+
 }
 
 
 
 
 header img{
+margin-top: -6px;
 width: 2em;
 height: 2em;
 float:left;
@@ -35,6 +50,7 @@ float:left;
 html{
 overflow-y: hidden;
 overflow-x: hidden;
+
 }
 
 
@@ -69,6 +85,7 @@ overflow-x: hidden;
 
     .buttonBestellen{
 
+
       float: right;
       border:none;
       height:100%;
@@ -77,16 +94,29 @@ overflow-x: hidden;
       transition-duration: 0.4s;
       background-color: #F0F0F0;
 
+
+    }
+
+    @media(max-width:400px){
+
+.buttonBestellen{
+
+padding-right: 65px;
+
+}
+
+
     }
 
     .buttonBestellen:hover{
 
-        background-color: #81F781;
+
+        box-shadow: 10px 10px 15px  grey;
 
     }
     .buttonBestellen:active{
 
-        background-color: #F0F0F0;
+        background-color: #81F781;
 
     }
 
@@ -180,9 +210,23 @@ overflow-y: auto;
 
   }
 
-  .scrollspy{
-width: 100vw;
+
+  .autocomplete{
+
+margin-top: 0px;
+box-shadow: none;
+width: 100%;
+
+
+  }
+  .navbar{
+
 height: auto;
+  }
+  .scrollspy{
+
+    width: 100vw;
+    height: auto;
   }
 
 
