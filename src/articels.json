@@ -70,14 +70,14 @@
         },
         {
           "name" : "Salatteller mediterran",
-          "beschreibung" : "Mediterranes Gemüse, Mozzarella, mit Basilikumöl verfeinert ",
+          "beschreibung" : "Mediterranes Gemüse, Mozzarella und Feigen ",
           "preis" : "12.50 €",
           "image" : "Salat_Mediterran.jpg"
         },
         {
           "name" : "Sommernacht",
           "beschreibung" : "Gegrilltes Gemüse, grünen Oliven, Basilikum, Sonnenblumenkerne an Dressing",
-          "preis" : 7.20,
+          "preis" : "7.20 €",
           "image" : "sommernacht.jpg"
         }
       ]
