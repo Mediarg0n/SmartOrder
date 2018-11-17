@@ -23,7 +23,7 @@
         },
         {
           "name" : "Peperoni",
-          "beschreibung" : "gegrillt mit frischem Knoblauch,Olivenöl und Sauce",
+          "beschreibung" : "gegrillt mit frischem Knoblauch, Olivenöl und Sauce",
           "preis" : "2,50 €",
           "image" : "Peperoni.jpg"
         },
@@ -33,54 +33,52 @@
           "preis" : "4.00 €",
           "image" : "Sardinen.jpg"
         }
-
-
       ]
     },
     {
       "groupname" : "Salate",
       "list" : [
         {
-          "name" : "Salami",
-          "beschreibung" : "Tomaten, Salami, Käse",
+          "name" : "Beilagensalat",
+          "beschreibung" : "Gemischt, mit Zwiebeln",
+          "preis" : "4.20 €",
+          "image" : "beilagensalat.jpg"
+        },
+        {
+          "name" : "Gemischter Salat",
+          "beschreibung" : "Blattsalat, Rohkost, Gurken, Tomaten und Zwiebeln",
+          "preis" : "9.70 €",
+          "image" : "gemischter_salat.jpg"
+        },
+        {
+          "name" : "Italienischer Salat",
+          "beschreibung" : "Blattsalat, Rohkost, Oliven, Zwiebeln, Ei, Croûtons und Thunfisch",
+          "preis" : "10.80 €",
+          "image" : "italienischer_salat.jpg"
+        },
+        {
+          "name" : "Wildkräutersalat Rinderstreifen",
+          "beschreibung" : "Mit gebratenen Rinderstreifen, Kirschtomaten und Ofenbrot",
+          "preis" : "15.90 €",
+          "image" : "wildkräuter_salat.jpg"
+        },
+        {
+          "name" : "Caesar Chicken",
+          "beschreibung" : "Gegrillte Hähnchenbruststreifen, Tomaten, Ei, Zwiebeln und Sesam",
+          "preis" : "10.30 €",
+          "image" : "Caesar_Chicken.jpg"
+        },
+        {
+          "name" : "Salatteller mediterran",
+          "beschreibung" : "Mediterranes Gemüse, Mozzarella, mit Basilikumöl verfeinert ",
+          "preis" : "12.50 €",
+          "image" : "Salat_Mediterran.jpg"
+        },
+        {
+          "name" : "Sommernacht",
+          "beschreibung" : "Gegrilltes Gemüse, grünen Oliven, Basilikum, Sonnenblumenkerne an Dressing",
           "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Diavolo",
-          "beschreibung" : "lecker scharf",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Avocado",
-          "beschreibung" : "e design when the width gets larger than 768px. This will make our design Mobile First:",
-          "preis" : 3.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Chickenburger",
-          "beschreibung" : "frisches Knoblauchbrot mit Dip",
-          "preis" : 3.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Lammkeule",
-          "beschreibung" : "kleiner gemischter Salat",
-          "preis" : 3.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Schwein",
-          "beschreibung" : "frisches Knoblauchbrot mit Dip",
-          "preis" : 3.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Salami",
-          "beschreibung" : "Tomaten, Salami, Käse",
-          "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : "sommernacht.jpg"
         }
       ]
     },
@@ -88,83 +86,42 @@
       "groupname" : "Pizza",
       "list" : [
         {
-          "name" : "Nudeln",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "name" : "Pizza Margherita",
+          "beschreibung" : "nach italinischem Rezept",
+          "preis" : "5.50 €",
+          "image" : "pizza_margherita.jpg"
         },
         {
-          "name" : "Bolognese",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "name" : "Pizza Salamico",
+          "beschreibung" : "mit normaler oder scharfer Salami",
+          "preis" : "6.00 €",
+          "image" : "salami_pizza.jpg"
         },
         {
-          "name" : "Gammelfleisch",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "name" : "Pizza Olivico",
+          "beschreibung" : "mit Rucola und Oliven",
+          "preis" : "6.50 €",
+          "image" : "pizza_olive.jpg"
         },
         {
-          "name" : "Spätzle",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "name" : "Pizza Spezialico",
+          "beschreibung" : "mit verführerischen Zutaten",
+          "preis" : "7.50 €",
+          "image" : "pizza_spezial.jpg"
         },
         {
-          "name" : "Rostbraten",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "name" : "Pizza Helthico",
+          "beschreibung" : "mit gesundem Rucola und Spinat (kalorienarm)",
+          "preis" : "9.50 €",
+          "image" : "pizza_helthico.jpg"
         },
         {
-          "name" : "Pommer",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "name" : "Flammkuchen",
+          "beschreibung" : "nach elsässer Art",
+          "preis" : "7.00 €",
+          "image" : "flammkuchen.jpg"
         }
 
-      ]
-    },
-    {
-      "groupname" : "Pasta",
-      "list" : [
-        {
-          "name" : "großer Döner",
-          "beschreibung" : "mit ohne Scharf",
-          "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "kleiner Döner",
-          "beschreibung" : "mit ohne ohne Scharf",
-          "preis" : 1.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Donut",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Käse",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Kekse",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Petersilie",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
-        }
       ]
     },
 
@@ -175,37 +132,37 @@
           "name" : "Hamburger",
           "beschreibung" : "lecker",
           "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Cheeseburger",
           "beschreibung" : "Vollmilch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Banane",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "PickUp",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Joghurt",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Pudding",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         }
       ]
     },
@@ -216,37 +173,37 @@
           "name" : "Hamburger",
           "beschreibung" : "lecker",
           "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Cheeseburger",
           "beschreibung" : "Vollmilch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Banane",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "PickUp",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Joghurt",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Pudding",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         }
       ]
     },
@@ -257,37 +214,37 @@
           "name" : "Hamburger",
           "beschreibung" : "lecker",
           "preis" : 7.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Cheeseburger",
           "beschreibung" : "Vollmilch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Banane",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "PickUp",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         },
         {
           "name" : "Joghurt",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
-          "image" : "vorspeisensalat1.jpg"
+          "image" : ""
         },
         {
           "name" : "Pudding",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
-          "image" : "Knoblauchbrot.jpg"
+          "image" : ""
         }
       ]
     }
