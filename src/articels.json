@@ -173,46 +173,42 @@
       },
 
     {
-      "groupname" : "Dessert",
+      "groupname" : "Desserts",
       "list" : [
         {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
+          "name" : "Schokoladen-Sahne-Törtchen",
+          "beschreibung" : "verfeinert mit frischen Himbeeren",
+          "preis" : "7 €",
+          "image" : "schoko_sahne.jpg"
         },
         {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Panna Cotta",
+          "beschreibung" : "fruchtige Creme im Glas, nach original italienischem Rezept",
+          "preis" : "4.50 €",
+          "image" : "panna_cotta.jpg"
         },
         {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Creme Brulee",
+          "beschreibung" : "Vanille-Creme mit köstlicher Karamellkruste",
+          "preis" : "6 €",
+          "image" : "creme-brulee.jpg"
         },
         {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Apfelstrudel mit Vanillesoße",
+          "beschreibung" : "nach Omas Art",
+          "preis" : "11.50 €",
+          "image" : "apfel_strudel.jpg"
         },
         {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Tiramisu",
+          "beschreibung" : "verfeinert durch originale italienischen Espresso",
+          "preis" : " 5.10 €",
+          "image" : "tiramisu.jpg"
         }
       ]
-    },
+    }
+
+,
     {
       "groupname" : "Getränke",
       "list" : [
