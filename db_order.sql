@@ -33,7 +33,8 @@ CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
   `tisch` int(11) DEFAULT NULL,
   `gericht` varchar(50) DEFAULT NULL,
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` boolean DEFAULT true
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
