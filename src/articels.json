@@ -125,47 +125,53 @@
       ]
     },
 
-    {
-      "groupname" : "Fleischgerichte",
-      "list" : [
-        {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
-        },
-        {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
-        }
-      ]
-    },
+  { "groupname" : "Fleischgerichte",
+        "list" : [
+          {
+            "name" : "Schaschlikspieße",
+            "beschreibung" : "gemischtes Fleisch, gegrillt mit Speck und frischem Gemüse",
+            "preis" : "18.90 €",
+            "image" : "schaschlick.jpg"
+          },
+          {
+            "name" : "Spareribs",
+            "beschreibung" : "gegrillte Kotelettrippchen vom Schwein mit BBQ Kruste",
+            "preis" : "19.20 €",
+            "image" : "spare_ribs.jpg"
+          },
+          {
+            "name" : "Rosmarin Rindersteak",
+            "beschreibung" : "mit Pommes frites",
+            "preis" : "25.90 €",
+            "image" : "rosmarin_steak.jpg"
+          },
+          {
+            "name" : "Spargel Steak",
+            "beschreibung" : "zartes Kalbsfleisch an grünem Spargel",
+            "preis" : "23.90 €",
+            "image" : "spargel_steak.jpg"
+          },
+          {
+            "name" : "Gulaschsuppe",
+            "beschreibung" : "pikantes Rindergulasch und Brot",
+            "preis" : "12.50 €",
+            "image" : "Suppe_der_Saison.jpg"
+          },
+          {
+            "name" : "Fleischplatte",
+            "beschreibung" : "mit allem was das Herz begehrt",
+            "preis" : "27.80 €",
+            "image" : "fleischplatte.jpg"
+          },
+          {
+            "name" :"Hamburger",
+            "beschreibung" : "nach Amerikanischer Art",
+            "preis" :"8.50 €",
+            "image" : "hamburger.jpg"
+          }
+        ]
+      },
+
     {
       "groupname" : "Dessert",
       "list" : [
