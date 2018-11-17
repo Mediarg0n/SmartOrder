@@ -17,7 +17,7 @@
   Bitte Tischauswahl treffen:
     <div class="row">
 
-        <div class="col-sm-1"> <button type="button" class="btn btn-default">Tisch 1</button> </div>
+        <div class="col-sm-1"> <button onclick="myFunction()"  type="button" class="btn btn-default" id="1">Tisch 1</button> </div>
         <div class="col-sm-1"> <button type="button" class="btn btn-default">Tisch 2</button> </div>
         <div class="col-sm-1"> <button type="button" class="btn btn-default">Tisch 3</button> </div>
         <div class="col-sm-1"> <button type="button" class="btn btn-default">Tisch 4</button> </div>
@@ -25,6 +25,14 @@
         <div class="col-sm-1"> <button type="button" class="btn btn-default">Tisch 6</button> </div>
 
 </div>
+
+<script>
+
+function myFunction() {
+var msg1 = document.querySelector("#1").value;
+  alert('Test');
+}
+</script>
 
 
   </body>
