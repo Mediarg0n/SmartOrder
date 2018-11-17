@@ -1,49 +1,44 @@
 
   [
     {
-      "groupname" : "Vspeisen",
+      "groupname" : "Vorspeisen",
       "list" : [
         {
-          "name" : "Vorspeisensalat",
-          "beschreibung" : "kleiner gemischter Salat",
-          "preis" : 3.20,
-          "image" : "vorspeisensalat1.jpg"
+          "name" : "Suppe der Saison",
+          "beschreibung" : "mit Brot",
+          "preis" : "3.00 €",
+          "image" : "Suppe_der_Saison.jpg"
+        },
+        {
+          "name" : "Tomatencremesuppe",
+          "beschreibung" : "mit Brot",
+          "preis" : "3.00 €",
+          "image" : "Tomatencremesuppe.jpg"
         },
         {
           "name" : "Knoblauchbrot",
-          "beschreibung" : "frisches Knoblauchbrot mit Dip",
-          "preis" : 3.20,
+          "beschreibung" : "mit Knoblauch und pikanten Gewürzen",
+          "preis" : "2.50 €",
           "image" : "Knoblauchbrot.jpg"
         },
         {
-          "name" : "Tomaten",
-          "beschreibung" : "kjahdskjfha ",
-          "preis" : 3.20,
-          "image" : "vorspeisensalat1.jpg"
+          "name" : "Peperoni",
+          "beschreibung" : "gegrillt mit frischem Knoblauch,Olivenöl und Sauce",
+          "preis" : "2,50 €",
+          "image" : "Peperoni.jpg"
         },
         {
-          "name" : "Petersilie",
-          "beschreibung" : "frisches Knoblauchbrot mit Dip",
-          "preis" : 3.20,
-          "image" : "Knoblauchbrot.jpg"
-        },
-        {
-          "name" : "Maultaschen",
-          "beschreibung" : "kleiner gemischter Salat",
-          "preis" : 3.20,
-          "image" : "vorspeisensalat1.jpg"
-        },
-        {
-          "name" : "Äpfel",
-          "beschreibung" : "frisches Knoblauchbrot mit Dip",
-          "preis" : 3.20,
-          "image" : "Knoblauchbrot.jpg"
+          "name" : "Sardinas Asadas",
+          "beschreibung" : "gegrillte Sardinen in Olivenöl dedübstet an Salatgarnitur",
+          "preis" : "4.00 €",
+          "image" : "Sardinen.jpg"
         }
+
 
       ]
     },
     {
-      "groupname" : "Pizza",
+      "groupname" : "Salate",
       "list" : [
         {
           "name" : "Salami",
@@ -80,11 +75,17 @@
           "beschreibung" : "frisches Knoblauchbrot mit Dip",
           "preis" : 3.20,
           "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Salami",
+          "beschreibung" : "Tomaten, Salami, Käse",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
         }
       ]
     },
     {
-      "groupname" : "Pasta",
+      "groupname" : "Pizza",
       "list" : [
         {
           "name" : "Nudeln",
@@ -126,7 +127,7 @@
       ]
     },
     {
-      "groupname" : "Döner",
+      "groupname" : "Pasta",
       "list" : [
         {
           "name" : "großer Döner",
@@ -166,41 +167,42 @@
         }
       ]
     },
+
     {
-      "groupname" : "Nachtisch",
+      "groupname" : "Fleischgerichte",
       "list" : [
         {
-          "name" : "KremPrüle",
+          "name" : "Hamburger",
           "beschreibung" : "lecker",
           "preis" : 7.20,
           "image" : "vorspeisensalat1.jpg"
         },
         {
-          "name" : "Tafel-Schokolade",
+          "name" : "Cheeseburger",
           "beschreibung" : "Vollmilch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
         },
         {
-          "name" : "Pannacotta",
+          "name" : "Banane",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
           "image" : "vorspeisensalat1.jpg"
         },
         {
-          "name" : "Rittersport",
+          "name" : "PickUp",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
         },
         {
-          "name" : "Eis",
+          "name" : "Joghurt",
           "beschreibung" : "Fleisch und Nudeln",
           "preis" : 8.20,
           "image" : "vorspeisensalat1.jpg"
         },
         {
-          "name" : "BigMac",
+          "name" : "Pudding",
           "beschreibung" : "viel Fleisch",
           "preis" : 8.20,
           "image" : "Knoblauchbrot.jpg"
@@ -208,7 +210,48 @@
       ]
     },
     {
-      "groupname" : "McDonalds",
+      "groupname" : "Dessert",
+      "list" : [
+        {
+          "name" : "Hamburger",
+          "beschreibung" : "lecker",
+          "preis" : 7.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Cheeseburger",
+          "beschreibung" : "Vollmilch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Banane",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "PickUp",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        },
+        {
+          "name" : "Joghurt",
+          "beschreibung" : "Fleisch und Nudeln",
+          "preis" : 8.20,
+          "image" : "vorspeisensalat1.jpg"
+        },
+        {
+          "name" : "Pudding",
+          "beschreibung" : "viel Fleisch",
+          "preis" : 8.20,
+          "image" : "Knoblauchbrot.jpg"
+        }
+      ]
+    },
+    {
+      "groupname" : "Getränke",
       "list" : [
         {
           "name" : "Hamburger",

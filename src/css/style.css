@@ -96,11 +96,11 @@ overflow-x: hidden;
 
     }
 
-    @media(max-width:480px){
+    @media(max-width:400px){
 
 .buttonBestellen{
 
-padding-right: 60px;
+padding-right: 65px;
 
 }
 
