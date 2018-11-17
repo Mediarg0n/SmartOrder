@@ -70,12 +70,14 @@ overflow-x: hidden;
       margin-bottom: 4em;
     }
 
-    
+
 
     .divArtikel{
       background-image: url("../img/wood.jpg");
       background-position: right 0 top 0;
       margin-bottom: 1em;
+      font-size: 15px;
+
     }
 
 
@@ -111,7 +113,7 @@ background-position: center;
 
 
     .spanArtikelTitel{
-      font-weight: bolder;
+      font-weight: bold;
     }
 
 
