@@ -28,10 +28,10 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="küche0.html">Noch Offen<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="kueche0.php">Noch Offen<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="küche1.html">Abgeschlossen</a>
+        <a class="nav-link" href="kueche1.php">Abgeschlossen</a>
       </li>
 
 
