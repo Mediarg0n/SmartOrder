@@ -105,8 +105,12 @@ $user='root';
 $pw='';
 $database='db_order';
 
-    $db = new mysqli($host, $user, $pw, $database);
+    $db = mysqli_connect($host, $user, $pw, $database);
     $sql="INSERT INTO orders (id, gericht, date, tisch) VALUES ('$id','$gericht','$date''$tisch')";
+
+    if (!$db) {
+        die("Connection failed: " . mysqli_connect_error());
+
     while($row=mysqli_fetch_array($sql)){
         echo $row["id"];
         echo $row["date"];
