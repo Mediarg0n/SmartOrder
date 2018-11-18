@@ -5,6 +5,8 @@ background-color:#DFDFD4;
 	font-family: Garamond;
 	text-align: center;
 }
-.col-sm-1{
-
+.btn{
+	width: 200px;
+	height: 50px;
+	align-items: center;
 }

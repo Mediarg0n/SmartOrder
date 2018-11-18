@@ -1,27 +1,56 @@
-header{
-
-  background-color: lightgrey;
-  color:white;
-  position: relative;
-  margin-bottom: 1vh;
-  height: 10vh;
-
-
-}
 
 asside{
   display: inline-block;
   float:left;
-  width: 7vw;
+  width: 7.5vw;
   min-width: 15ex;
   margin-right: 1ex;
 
 
+
+}
+
+
+.navbar{
+
+height: 70px;
+border-radius: 0px;
+
+
+}
+.autocomplete{
+
+
+margin-top: 7px;
+border: none;
+box-shadow: 5px 5px 5px grey;
+
+
+}
+
+
+#head{
+  float:right;
+  margin-top: 3px;
+
+
+
+}
+
+
+
+
+header img{
+margin-top: -6px;
+width: 2em;
+height: 2em;
+float:left;
 }
 
 html{
 overflow-y: hidden;
 overflow-x: hidden;
+
 }
 
 
@@ -37,7 +66,7 @@ overflow-x: hidden;
     }
 
     .divArtikel{
-      background-color: #57EF84;
+      background-color: #81F781;
       margin-bottom: 1em;
     }
 
@@ -53,14 +82,45 @@ overflow-x: hidden;
       font-weight: bolder;
     }
 
-    .divOrder{
 
-    }
     .buttonBestellen{
 
+
       float: right;
-      margin-right: 3px;
+      border:none;
+      height:100%;
+      width: 100%;
+      text-align: center;
+      transition-duration: 0.4s;
+      background-color: #F0F0F0;
+
+
     }
+
+    @media(max-width:400px){
+
+.buttonBestellen{
+
+padding-right: 65px;
+
+}
+
+
+    }
+
+    .buttonBestellen:hover{
+
+
+        box-shadow: 10px 10px 15px  grey;
+
+    }
+    .buttonBestellen:active{
+
+        background-color: #81F781;
+
+    }
+
+
 
 
 
@@ -76,23 +136,14 @@ margin-bottom: 1em;
 div img{
   width: 80px;
 }*/
-header h1{
-display: inline-block;
+
+
+@media (min-width:576px) and (max-width: 601px ){
+
+    .scrollspy{  width: 79vw;  }
 
 }
-
-
-
-header img{
-width: 3em;
-height: 3em;
-
-
-}
-
-
-
-@media (min-width:601px) and (max-width: 701px ){
+@media (min-width:601px) and (max-width: 702px ){
 
     .scrollspy{  width: 80vw;  }
 
@@ -140,44 +191,49 @@ height: 3em;
 
 
 
-@media (min-width:601px){
-  #nav_small{
+@media (min-width:576px){
+  #nav_small_ul{
     display: none ;
   }
 
 
-  header{min-height: 10ex;}
 }
 
-
-
-@media (max-width: 600px){
+@media (max-width: 575.9px){
   #nav_large{
     display: none;
   }
 
-  #header_large{
+  html{
+overflow-y: auto;
 
-    display: none;
+
   }
 
+
+  .autocomplete{
+
+margin-top: 0px;
+box-shadow: none;
+width: 100%;
+
+
+  }
+  .navbar{
+
+height: auto;
+  }
   .scrollspy{
-width: 100vw;
 
+    width: 100vw;
+    height: auto;
   }
 
-header{ height:0%;}
-
-.navbar{margin-bottom: 0px;}
 
 .divBild>img{
   height: 90px;
   width: 160px;
 }
 
-  header img{
-  width: 2em;
-  height: 2em;
-  float:left;
-  }
+
 }

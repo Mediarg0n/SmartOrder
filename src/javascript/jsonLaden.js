@@ -25,23 +25,7 @@ window.addEventListener("load", ()=> {
   loadJSON('articels.json', (text) => {
       let JSONDATA = JSON.parse(text);
       //Beispiel für Einfügen
-      JSONDATA.splice(1,0,  {
-          "groupname" : "Essen",
-          "list" : [
-            {
-              "name" : "Vorspeisensalat",
-              "beschreibung" : "kleiner gemischter Salat",
-              "preis" : 3.20,
-              "image" : "vorspeisensalat1.jpg"
-            },
-            {
-              "name" : "Knoblauchbrot",
-              "beschreibung" : "frisches Knoblauchbrot mit Dip",
-              "preis" : 3.20,
-              "image" : "Knoblauchbrot.jpg"
-            }
-          ]
-        });
+
 
 
 
@@ -75,8 +59,6 @@ window.addEventListener("load", ()=> {
 
         let groupRef_small = document.createElement("li");
         groupRef_small.classList.add("nav-item");
-        groupRef_small.setAttribute("data-toggle","collapse");
-        groupRef_small.setAttribute("data-target","#navbarSupportedContent");
         nav_small.appendChild(groupRef_small);
 
         let navlink = document.createElement("a");
@@ -109,7 +91,7 @@ window.addEventListener("load", ()=> {
 
             let divArtikelDetails = document.createElement("div");
             divArtikelDetails.classList.add("divArtikelDetails");
-            divArtikelDetails.classList.add("col-xs-9");
+            divArtikelDetails.classList.add("col-xs-6");
 
               let spanArtikelTitel = document.createElement("span");
               spanArtikelTitel.classList.add("spanArtikelTitel");
@@ -129,13 +111,16 @@ window.addEventListener("load", ()=> {
                   spanPreis.innerHTML = listItem.preis;
                 divOrder.appendChild(spanPreis);
 
+
+                let button = document.createElement("div");
+                button.classList.add("col-xs-3");
+
                 let buttonBestellen = document.createElement("button");
                 buttonBestellen.classList.add("buttonBestellen");
                 buttonBestellen.type = "button";
                   buttonBestellen.textContent = "Bestellen";
                 buttonBestellen.id = "button"+listItem.name;
                 buttonBestellen.onclick = () =>{
-                  alert("sa");
                   $.ajax({
                     url:"insert.php",
                     type:"POST",
@@ -143,7 +128,7 @@ window.addEventListener("load", ()=> {
                     datatype: "text",
                     success: (data, textStatus, jqXHR) =>
                     {
-                       alert(this.data + "," + this.url);
+                       alert("Sieh haben "+listItem.name+" bestellt");
                     },
                     error: (XMLHttpRequest, textStatus, errorThrown) => {
                       alert("Status: " + textStatus + " Error: " + errorThrown);
@@ -153,14 +138,16 @@ window.addEventListener("load", ()=> {
 
 
 
-                divOrder.appendChild(buttonBestellen);
+              button.appendChild(buttonBestellen);
 
 
 
 
               divArtikelDetails.appendChild(divOrder);
 
+
             divArtikel.appendChild(divArtikelDetails);
+            divArtikel.appendChild(button);
           divGroup.appendChild(divArtikel);
 
         })
