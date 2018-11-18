@@ -75,13 +75,12 @@ $database='db_order';
             </div>
 
     <script>
-    $(document).ready(function(){
+
         $("#b<?php echo $zeile['id']?>").click(function(){
             $("#div<?php echo $zeile['id']?>").remove();
-    		$("#b<?php echo $zeile['id']?>").remove();
-                $(<?php $update = mysqli_query($db, "UPDATE orders SET status = 0" )?>)
+            $("#b<?php echo $zeile['id']?>").remove();
+            $(<?php $update = mysqli_query($db, "UPDATE orders SET status = 0" )?>)
         });
-    });
     </script>
 
 <?php
@@ -92,3 +91,8 @@ $database='db_order';
 
   </body>
 </html>
+
+<!-- einzeiliger Kommentar -->
+<!-- und das ist ein mehrzeiliger Kommentar
+  zu dem Text mit <p>...</p>
+  Letzte Zeile des Kommentars -->
