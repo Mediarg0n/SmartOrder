@@ -27,7 +27,10 @@ Hierzu muss der SmartOrder Order in den entsprechenden htdocs Ordner des Program
  Wenn man stattdessen beispielsweise in die Küchenansicht möchte erreicht man diese unter:
   localhost/SmartOrder2/src/küche0.html
   
+  
   Alle Dateien sind aus dem Localhost heraus zu Öffnen, nur so kann die Navigation zwischen den Küchenanischten garantiert werden.
+  
+  Wenn man in die Küchenanischt will, muss man zuerst über Anmeldung.html gehen
   z.B. localhost/Smartorder/src/anmeldung.html 
 
  
