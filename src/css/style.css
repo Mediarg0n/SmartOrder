@@ -104,7 +104,8 @@ background-position: center;
 .spanArtikelTitel, .spanPreis, .spanBeschreibung{
 
 background: rgba(255,255,255,0.5);
-border-radius: 2.5px;
+padding: 2.4px;
+
 
 }
 
