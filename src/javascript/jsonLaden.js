@@ -93,6 +93,8 @@ window.addEventListener("load", ()=> {
             divArtikelDetails.classList.add("divArtikelDetails");
             divArtikelDetails.classList.add("col-xs-6");
 
+            
+
               let spanArtikelTitel = document.createElement("span");
               spanArtikelTitel.classList.add("spanArtikelTitel");
                 spanArtikelTitel.innerHTML = listItem.name;

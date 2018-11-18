@@ -23,7 +23,7 @@ border-radius: 0px;
 
 margin-top: 7px;
 border: none;
-box-shadow: 5px 5px 5px grey;
+
 
 
 }
@@ -109,7 +109,13 @@ padding: 2.4px;
 
 }
 
+#nav_small{
 
+background-image: url("../img/wood.jpg");
+background-position: center;
+
+
+}
 
 
 
