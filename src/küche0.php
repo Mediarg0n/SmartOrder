@@ -106,15 +106,40 @@ $pw='';
 $database='db_order';
 
     $db = new mysqli($host, $user, $pw, $database);
-    $sql="INSERT INTO orders (id, gericht, date, tisch) VALUES ('$id','$gericht','$date''$tisch')";
+    $sql="SELECT id, gericht, date, tisch  FROM orders";
+
+    $db_erg = mysqli_query( $db, $sql );
+
+    if ( ! $db_erg )
+    {
+      die('Ungültige Abfrage: ' . mysqli_error());
+    }
+
+    echo "<table border='1'>" ;
+
+    while ($zeile = mysqli_fetch_array( $db_erg))
+    {
+      echo "<tr>";
+      echo "<td>". $zeile['id'] . "</td>";
+      echo "<td>". $zeile['gericht'] . "</td>";
+      echo "<td>". $zeile['date'] . "</td>";
+      echo "<td>". $zeile['tisch'] . "</td>";
+      echo "</tr>";
+    }
+    echo "</table>";
+
+    mysqli_free_result( $db_erg );
+    ?>
+<!--
     while($row=mysqli_fetch_array($sql)){
+
         echo $row["id"];
         echo $row["date"];
         echo $row["gericht"];
         echo $row["tisch"];
     }
 ?>
-
+-->
 
   </body>
 </html>
