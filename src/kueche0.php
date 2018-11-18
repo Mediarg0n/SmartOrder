@@ -19,53 +19,12 @@
 
     <script>
 $(document).ready(function(){
-    $("#b1").click(function(){
-        $("#div1").remove();
-		$("#b1").remove();
+    $("#b<?php echo $zeile['id']?>").click(function(){
+        $("#div<?php echo $zeile['id']?>").remove();
+		$("#b<?php echo $zeile['id']?>").remove();
     });
 });
 </script>
-<script>
-$(document).ready(function(){
-    $("#b2").click(function(){
-        $("#div2").remove();
-		$("#b2").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b3").click(function(){
-        $("#div3").remove();
-		$("#b3").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b4").click(function(){
-        $("#div4").remove();
-		$("#b4").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b5").click(function(){
-        $("#div5").remove();
-		$("#b5").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b6").click(function(){
-        $("#div6").remove();
-		$("#b6").remove();
-    });
-});
-</script>
-
 
   </head>
   <body>
@@ -96,9 +55,42 @@ $(document).ready(function(){
   </div>
 </nav>
 
+-<?php
+$host='localhost';
+$user='root';
+$pw='';
+$database='db_order';
 
+    $db = new mysqli($host, $user, $pw, $database);
+    $sql="SELECT id, gericht, date, tisch  FROM orders";
 
+    $db_erg = mysqli_query( $db, $sql );
 
+    if ( ! $db_erg )
+    {
+      die('Ungültige Abfrage: ' . mysqli_error());
+    }
+
+    echo "<table border='1'>" ;
+
+    while ($zeile = mysqli_fetch_array( $db_erg))
+    {
+        $integer=0;
+        ?>
+        <div class="row">
+            <div id="div<?php echo $zeile['id']?>" class="col-md-5">
+            <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
+            <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
+            <p>Gericht : <?php echo $zeile['gericht']?></p>
+            <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
+            <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
+            </div>
+        </div>
+        <?php
+    }
+
+    mysqli_free_result( $db_erg );
+    ?>
 
   </body>
 </html>
