@@ -71,7 +71,7 @@ $database='db_order';
             <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
             <p>Gericht : <?php echo $zeile['gericht']?></p>
             <p>Bestellzeitpunkt <?php echo $zeile['date']?></p>
-            <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
+            <button class = "button" id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
             </div>
 
     <script>
@@ -79,7 +79,7 @@ $database='db_order';
         $("#b<?php echo $zeile['id']?>").click(function(){
             $("#div<?php echo $zeile['id']?>").remove();
     		$("#b<?php echo $zeile['id']?>").remove();
-                $(<?php $update = mysqli_query($db, "UPDATE orders SET status =0" )?>)
+                $(<?php $update = mysqli_query($db, "UPDATE orders SET status = 0" )?>)
         });
     });
     </script>

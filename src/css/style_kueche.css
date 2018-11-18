@@ -1,22 +1,77 @@
 body {
     background-color: dimgray;
+    font-family: "Helvetica";
 }
 .feld{
-	height:160px;
-	width:300px;
-	border:1px solid black;
-	background-color: green;
+    margin:auto;
+	height:190px;
+	width:100%;
+    text-align: center;
+    padding:15px;
+	border:5px solid white;
+	background-color: #76b852;
 	animation: change 15s step-end both;
 }
 .feldNeu{
-    color:white;
-    height:160px;
-	width:300px;
-	border:1px solid white;
-	background-color: blue;
+    margin: auto;
+    height:190px;
+	width: 100%;
+    text-align: center;
+    padding: 15px;
+	border:5px solid white;
+	background-color: #76b852;
+}
+p{
+    font-weight: bold;
+    
 }
 
 @keyframes change {
-    from { background-color: green }
+    from { background-color: #76b852 }
     to   { background-color: red }
 }
+
+.button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+	background-color:#ffffff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#080808;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:33px;
+	line-height:33px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+	background-color:#ffffff;
+}
+.button:active {
+	position:relative;
+	top:1px;
