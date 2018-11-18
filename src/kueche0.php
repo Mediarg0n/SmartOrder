@@ -17,15 +17,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <script>
-$(document).ready(function(){
-    $("#b<?php echo $zeile['id']?>").click(function(){
-        $("#div<?php echo $zeile['id']?>").remove();
-		$("#b<?php echo $zeile['id']?>").remove();
-    });
-});
-</script>
-
   </head>
   <body>
 <!--Navbar-->
@@ -55,7 +46,7 @@ $(document).ready(function(){
   </div>
 </nav>
 
--<?php
+<?php
 $host='localhost';
 $user='root';
 $pw='';
@@ -71,22 +62,29 @@ $database='db_order';
       die('Ungültige Abfrage: ' . mysqli_error());
     }
 
-    echo "<table border='1'>" ;
-
     while ($zeile = mysqli_fetch_array( $db_erg))
     {
-        $integer=0;
+
         ?>
-        <div class="row">
-            <div id="div<?php echo $zeile['id']?>" class="col-md-5">
+            <div id="div<?php echo $zeile['id']?>" class="feld">
             <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
             <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
             <p>Gericht : <?php echo $zeile['gericht']?></p>
             <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
             <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
             </div>
-        </div>
-        <?php
+
+    <script>
+    $(document).ready(function(){
+        $("#b<?php echo $zeile['id']?>").click(function(){
+            $("#div<?php echo $zeile['id']?>").remove();
+    		$("#b<?php echo $zeile['id']?>").remove();
+        });
+    });
+    </script>
+
+<?php
+
     }
 
     mysqli_free_result( $db_erg );
