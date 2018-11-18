@@ -65,12 +65,59 @@ overflow-x: hidden;
 
     }
 
-    .divArtikel{
-      background-color: #81F781;
-      margin-bottom: 1em;
+    .divGroup{
+
+      margin-bottom: 4em;
     }
 
+
+
+    .divArtikel{
+      background-image: url("../img/wood.jpg");
+      background-position: right 0 top 0;
+      margin-bottom: 1em;
+      font-size: 15px;
+
+    }
+
+
+
+    @media (max-width:1200px){
+.divArtikel{
+background-position: right -150px top 0;
+
+    }}
+
+    @media (max-width:1000px){
+.divArtikel{
+background-position: right -250px top 0;
+
+    }}
+
+    @media (max-width:800px){
+.divArtikel{
+background-position: center;
+
+    }}
+
+
+.spanArtikelTitel, .spanPreis, .spanBeschreibung{
+
+background: rgba(255,255,255,0.5);
+padding: 2.4px;
+
+
+}
+
+
+
+
+
+
+
+
 .divBild{overflow: hidden;}
+
     .divBild>img{
       height: 120px;
       width: 200px;
@@ -79,7 +126,7 @@ overflow-x: hidden;
 
 
     .spanArtikelTitel{
-      font-weight: bolder;
+      font-weight: bold;
     }
 
 
@@ -116,7 +163,7 @@ padding-right: 65px;
     }
     .buttonBestellen:active{
 
-        background-color: #81F781;
+        background-image: url("../img/wood.jpg");
 
     }
 

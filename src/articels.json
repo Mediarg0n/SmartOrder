@@ -70,14 +70,14 @@
         },
         {
           "name" : "Salatteller mediterran",
-          "beschreibung" : "Mediterranes Gemüse, Mozzarella, mit Basilikumöl verfeinert ",
+          "beschreibung" : "Mediterranes Gemüse, Mozzarella und Feigen ",
           "preis" : "12.50 €",
           "image" : "Salat_Mediterran.jpg"
         },
         {
           "name" : "Sommernacht",
           "beschreibung" : "Gegrilltes Gemüse, grünen Oliven, Basilikum, Sonnenblumenkerne an Dressing",
-          "preis" : 7.20,
+          "preis" : "7.20 €",
           "image" : "sommernacht.jpg"
         }
       ]
@@ -125,85 +125,85 @@
       ]
     },
 
+  { "groupname" : "Fleisch",
+        "list" : [
+          {
+            "name" : "Schaschlikspieße",
+            "beschreibung" : "gemischtes Fleisch, gegrillt mit Speck und frischem Gemüse",
+            "preis" : "18.90 €",
+            "image" : "schaschlick.jpg"
+          },
+          {
+            "name" : "Spareribs",
+            "beschreibung" : "gegrillte Kotelettrippchen vom Schwein mit BBQ Kruste",
+            "preis" : "19.20 €",
+            "image" : "spare_ribs.jpg"
+          },
+          {
+            "name" : "Rosmarin Rindersteak",
+            "beschreibung" : "mit Pommes frites",
+            "preis" : "25.90 €",
+            "image" : "rosmarin_steak.jpg"
+          },
+          {
+            "name" : "Spargel Steak",
+            "beschreibung" : "zartes Kalbsfleisch an grünem Spargel",
+            "preis" : "23.90 €",
+            "image" : "spargel_steak.jpg"
+          },
+          {
+            "name" : "Gulaschsuppe",
+            "beschreibung" : "pikantes Rindergulasch und Brot",
+            "preis" : "12.50 €",
+            "image" : "Suppe_der_Saison.jpg"
+          },
+          {
+            "name" : "Fleischplatte",
+            "beschreibung" : "mit allem was das Herz begehrt",
+            "preis" : "27.80 €",
+            "image" : "fleischplatte.jpg"
+          },
+          {
+            "name" :"Hamburger",
+            "beschreibung" : "nach Amerikanischer Art",
+            "preis" :"8.50 €",
+            "image" : "hamburger.jpg"
+          }
+        ]
+      },
+
     {
-      "groupname" : "Fleischgerichte",
+      "groupname" : "Desserts",
       "list" : [
         {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
+          "name" : "Schokoladen-Sahne-Törtchen",
+          "beschreibung" : "verfeinert mit frischen Himbeeren",
+          "preis" : "7 €",
+          "image" : "schoko_sahne.jpg"
         },
         {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Panna Cotta",
+          "beschreibung" : "fruchtige Creme im Glas, nach original italienischem Rezept",
+          "preis" : "4.50 €",
+          "image" : "panna_cotta.jpg"
         },
         {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Creme Brulee",
+          "beschreibung" : "Vanille-Creme mit köstlicher Karamellkruste",
+          "preis" : "6 €",
+          "image" : "creme-brulee.jpg"
         },
         {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Apfelstrudel mit Vanillesoße",
+          "beschreibung" : "nach Omas Art",
+          "preis" : "11.50 €",
+          "image" : "apfel_strudel.jpg"
         },
         {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
-        }
-      ]
-    },
-    {
-      "groupname" : "Dessert",
-      "list" : [
-        {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
-        },
-        {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
-        },
-        {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Tiramisu",
+          "beschreibung" : "verfeinert durch originale italienischen Espresso",
+          "preis" : " 5.10 €",
+          "image" : "tiramisu.jpg"
         }
       ]
     },
@@ -211,41 +211,72 @@
       "groupname" : "Getränke",
       "list" : [
         {
-          "name" : "Hamburger",
-          "beschreibung" : "lecker",
-          "preis" : 7.20,
-          "image" : ""
+          "name" : "Wasser classic",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "Cheeseburger",
-          "beschreibung" : "Vollmilch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Wasser medium",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "Banane",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Wasser still",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.00 €",
+          "image" : "wasser.jpg"
         },
         {
-          "name" : "PickUp",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Coca-Cola",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "cola.jpg"
         },
         {
-          "name" : "Joghurt",
-          "beschreibung" : "Fleisch und Nudeln",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "Fanta",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "fanta.jpg"
         },
         {
-          "name" : "Pudding",
-          "beschreibung" : "viel Fleisch",
-          "preis" : 8.20,
-          "image" : ""
+          "name" : "MezzoMix",
+          "beschreibung" : "0,4 l",
+          "preis" : "3.50 €",
+          "image" : "mezzo.jpg"
+        },
+        {
+          "name" : "Rotwein",
+          "beschreibung" : "0,25 l ",
+          "preis" : "0,25 l",
+          "image" : "wein.jpg"
+        },
+        {
+          "name" : "Weißwein",
+          "beschreibung" : "0,25 l",
+          "preis" : "4.00 €",
+          "image" : "wein.jpg"
+        },
+        {
+          "name" : "Rothaus",
+          "beschreibung" : "0,5 l",
+          "preis" : "3.50 €",
+          "image" : "bier.jpg"
+        },
+        {
+          "name" : "Stuttgarter Hofbräu",
+          "beschreibung" : "0,5 l",
+          "preis" : "3.50 €",
+          "image" : "bier.jpg"
+        },
+        {
+          "name" : "kein Radler",
+          "beschreibung" : "Radler ist kein Alkohol!!!",
+          "preis" : "--- €",
+          "image" : "radler.jpg"
         }
+
       ]
     }
   ]
