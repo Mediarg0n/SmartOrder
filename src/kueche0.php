@@ -79,15 +79,9 @@ $database='db_order';
         $("#b<?php echo $zeile['id']?>").click(function(){
             $("#div<?php echo $zeile['id']?>").remove();
     		$("#b<?php echo $zeile['id']?>").remove();
-            if(.click(function()==false){
                 $(<?php $update = mysqli_query($db, "UPDATE orders SET status =0" )?>)
-            }
-
-
         });
-
     });
-
     </script>
 
 <?php

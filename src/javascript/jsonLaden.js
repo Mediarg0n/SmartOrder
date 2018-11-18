@@ -134,7 +134,7 @@ window.addEventListener("load", ()=> {
                     datatype: "text",
                     success: (data, textStatus, jqXHR) =>
                     {
-                       alert("Sieh haben "+listItem.name+" bestellt");
+                       alert("Sie haben "+listItem.name+" bestellt");
                     },
                     error: (XMLHttpRequest, textStatus, errorThrown) => {
                       alert("Status: " + textStatus + " Error: " + errorThrown);

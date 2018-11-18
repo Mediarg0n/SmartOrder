@@ -70,7 +70,7 @@ $database='db_order';
             <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
             <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
             <p>Gericht : <?php echo $zeile['gericht']?></p>
-            <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
+            <p>Bestellzeitpunkt <?php echo $zeile['date']?></p>
             </div>
 
 
