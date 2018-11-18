@@ -53,7 +53,7 @@ $pw='';
 $database='db_order';
 
     $db = new mysqli($host, $user, $pw, $database);
-    $sql="SELECT id, gericht, date, tisch  FROM orders";
+    $sql="SELECT * FROM orders WHERE status =0";
 
     $db_erg = mysqli_query( $db, $sql );
 
@@ -66,22 +66,13 @@ $database='db_order';
     {
 
         ?>
-            <div id="div<?php echo $zeile['id']?>" class="feld">
+            <div id="div<?php echo $zeile['id']?>" class="feldNeu">
             <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
             <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
             <p>Gericht : <?php echo $zeile['gericht']?></p>
             <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
-            <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
             </div>
 
-    <script>
-    $(document).ready(function(){
-        $("#b<?php echo $zeile['id']?>").click(function(){
-            $("#div<?php echo $zeile['id']?>").remove();
-    		$("#b<?php echo $zeile['id']?>").remove();
-        });
-    });
-    </script>
 
 <?php
 

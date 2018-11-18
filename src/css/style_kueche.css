@@ -8,6 +8,13 @@ body {
 	background-color: green;
 	animation: change 4s step-end both;
 }
+.feldNeu{
+    color:white;
+    height:160px;
+	width:300px;
+	border:1px solid white;
+	background-color: blue;
+}
 
 @keyframes change {
     from { background-color: green }

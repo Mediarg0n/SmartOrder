@@ -53,7 +53,7 @@ $pw='';
 $database='db_order';
 
     $db = new mysqli($host, $user, $pw, $database);
-    $sql="SELECT id, gericht, date, tisch  FROM orders";
+    $sql="SELECT * FROM orders WHERE status = 1";
 
     $db_erg = mysqli_query( $db, $sql );
 
@@ -62,7 +62,7 @@ $database='db_order';
       die('Ungültige Abfrage: ' . mysqli_error());
     }
 
-    while ($zeile = mysqli_fetch_array( $db_erg))
+    while ($zeile = mysqli_fetch_array($db_erg))
     {
 
         ?>
@@ -70,7 +70,7 @@ $database='db_order';
             <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
             <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
             <p>Gericht : <?php echo $zeile['gericht']?></p>
-            <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
+            <p>Bestellzeitpunkt <?php echo $zeile['date']?></p>
             <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
             </div>
 
@@ -79,13 +79,19 @@ $database='db_order';
         $("#b<?php echo $zeile['id']?>").click(function(){
             $("#div<?php echo $zeile['id']?>").remove();
     		$("#b<?php echo $zeile['id']?>").remove();
+            if(.click(function()==false){
+                $(<?php $update = mysqli_query($db, "UPDATE orders SET status =0" )?>)
+            }
+
+
         });
+
     });
+
     </script>
 
 <?php
-
-    }
+}
 
     mysqli_free_result( $db_erg );
     ?>
