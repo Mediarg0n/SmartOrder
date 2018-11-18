@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Küchenansicht</title>
-    <link rel="stylesheet" href="css/style_küche.css" />
+    <link rel="stylesheet" href="css/style_kueche.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,53 +19,12 @@
 
     <script>
 $(document).ready(function(){
-    $("#b1").click(function(){
-        $("#div1").remove();
-		$("#b1").remove();
+    $("#b<?php echo $zeile['id']?>").click(function(){
+        $("#div<?php echo $zeile['id']?>").remove();
+		$("#b<?php echo $zeile['id']?>").remove();
     });
 });
 </script>
-<script>
-$(document).ready(function(){
-    $("#b2").click(function(){
-        $("#div2").remove();
-		$("#b2").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b3").click(function(){
-        $("#div3").remove();
-		$("#b3").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b4").click(function(){
-        $("#div4").remove();
-		$("#b4").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b5").click(function(){
-        $("#div5").remove();
-		$("#b5").remove();
-    });
-});
-</script>
-<script>
-$(document).ready(function(){
-    $("#b6").click(function(){
-        $("#div6").remove();
-		$("#b6").remove();
-    });
-});
-</script>
-
 
   </head>
   <body>
@@ -96,10 +55,7 @@ $(document).ready(function(){
   </div>
 </nav>
 
-
-
-
-<?php
+-<?php
 $host='localhost';
 $user='root';
 $pw='';
@@ -119,27 +75,22 @@ $database='db_order';
 
     while ($zeile = mysqli_fetch_array( $db_erg))
     {
-      echo "<tr>";
-      echo "<td>". $zeile['id'] . "</td>";
-      echo "<td>". $zeile['gericht'] . "</td>";
-      echo "<td>". $zeile['date'] . "</td>";
-      echo "<td>". $zeile['tisch'] . "</td>";
-      echo "</tr>";
+        $integer=0;
+        ?>
+        <div class="row">
+            <div id="div<?php echo $zeile['id']?>" class="col-md-5">
+            <p>Tisch Nr. : <?php echo $zeile['tisch']?></p>
+            <p>Bestellung Nr. : <?php echo $zeile['id']?></p>
+            <p>Gericht : <?php echo $zeile['gericht']?></p>
+            <p>Bestellzeitpunkt <?php echo $zeile['date']?>:</p>
+            <button id="b<?php echo $zeile['id']?>">Bestellung ist fertig</button>
+            </div>
+        </div>
+        <?php
     }
-    echo "</table>";
 
     mysqli_free_result( $db_erg );
     ?>
-<!--
-    while($row=mysqli_fetch_array($sql)){
-
-        echo $row["id"];
-        echo $row["date"];
-        echo $row["gericht"];
-        echo $row["tisch"];
-    }
-?>
--->
 
   </body>
 </html>

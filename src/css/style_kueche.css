@@ -1,0 +1,15 @@
+body {
+    background-color: dimgray;
+}
+.col-md-5{
+	height:160px;
+	width:300px;
+	border:1px solid black;
+	background-color: green;
+	animation: change 4s step-end both;
+}
+
+@keyframes change {
+    from { background-color: green }
+    to   { background-color: red }
+}
