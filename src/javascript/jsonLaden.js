@@ -100,8 +100,12 @@ window.addEventListener("load", ()=> {
 
               let divBeschreibung = document.createElement("div");
               divBeschreibung.classList.add("divBeschreibung");
-                divBeschreibung.innerHTML = listItem.beschreibung;
+              let spanBeschreibung = document.createElement("span");
+                spanBeschreibung.classList.add("spanBeschreibung");
+                spanBeschreibung.innerHTML = listItem.beschreibung;
+                divBeschreibung.appendChild(spanBeschreibung);
               divArtikelDetails.appendChild(divBeschreibung);
+
 
               let divOrder = document.createElement("div");
               divOrder.classList.add("divOrder");
